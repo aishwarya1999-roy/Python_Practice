@@ -2,16 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a57439f5-bdb2-4ea2-96ee-36eea11a0500" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../Design01/.idea/Design01.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Exception_Handling/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Exception_Handling/.idea/Exception_Handling.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Exception_Handling/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Exception_Handling/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Exception_Handling/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Exception_Handling/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Exception_Handling/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Exception_Handling/Buildin_Exception.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Exception_Handling/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -72,6 +62,7 @@
       <updated>1661018408981</updated>
       <workItem from="1661018410212" duration="949000" />
       <workItem from="1661615063150" duration="235000" />
+      <workItem from="1661625490098" duration="443000" />
     </task>
     <servers />
   </component>
