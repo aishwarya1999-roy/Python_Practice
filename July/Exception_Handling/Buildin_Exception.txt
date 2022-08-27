@@ -1,0 +1,9 @@
+ZeroDivisionError - When a value is divided by zero
+
+TypeError - When we try to do an operation with incompatible data types
+
+NameError - When we try to access a variable which is not defined
+
+IndexError - When we try to access an index value which is out of range
+
+ValueError - When we use a valid data type for an argument of a built-in function but passes an invalid value for it
