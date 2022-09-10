@@ -5,7 +5,7 @@
 #Perform case sensitive string operations wherever necessary.
 #Example: msg=the sun rises in the east    output=eht snu sesir ni eht stea
 
-msg = "the sun rises in the east"
+"""msg = "the sun rises in the east"
 final=[]
 d = msg.split()
 vowels = ['a', 'e', 'i', 'o', 'u']
@@ -26,3 +26,30 @@ lk = ''
 for k in range(len(final)):
     lk += final[k]+ ' '
 print(lk)
+"""
+
+def encrypt_sentence(sentence):
+    final = []
+    d = sentence.split()
+    vowels = ['a', 'e', 'i', 'o', 'u']
+    for word in range(0, len(d)) :
+        if word % 2 == 0 :
+            final.append(d[word][: :-1])
+        else :
+            vowel = ""
+            cons = ""
+            for i in d[word] :
+                if i in vowels :
+                    vowel += i
+                else :
+                    cons += i
+            cons += vowel
+            final.append(''.join(cons))
+    lk = ''
+    for k in range(len(final)):
+        lk += final[k]+ ' '
+    return lk.lower()
+
+sentence="The sun rises in the east"
+encrypted_sentence=encrypt_sentence(sentence)
+print(encrypted_sentence)
