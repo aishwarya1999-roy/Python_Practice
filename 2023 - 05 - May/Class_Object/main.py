@@ -66,7 +66,7 @@ class Guiter :
     def play(self) :  # self parameter inside the new function makes it a method
         print("Pa para parappa pappa pa pa pa ")
 
-def BassGuiter (Guiter) :
+
 
 
 #child class
@@ -81,8 +81,6 @@ class ElectricGuiter(Guiter): #inheriting everything from Guiter class
 
     def playlowder(self): # adding something to it
         print("Pa para parappa pappa pa pa pa".upper())
-
-
 
 child_class = ElectricGuiter()
 
