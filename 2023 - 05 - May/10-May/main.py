@@ -18,6 +18,9 @@ if __name__ == "__main__" :  # if we add this , then the callme() function will 
 
 # List Comprehension
 
-fruits = ["Apple", "Grapes", "Mango"]
+fruits = ["apple", "grapes", "mango"]
+for fruit in fruits:
+    fruit = fruit.upper()
+print(fruits)
 
-for fruits 
+[print(i) for i in fruits]
