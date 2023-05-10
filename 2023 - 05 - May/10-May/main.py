@@ -16,4 +16,8 @@ if __name__ == "__main__" :  # if we add this , then the callme() function will 
     callme()
 """
 
-#
+# List Comprehension
+
+fruits = ["Apple", "Grapes", "Mango"]
+
+for fruits 
