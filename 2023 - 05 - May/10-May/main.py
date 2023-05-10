@@ -28,12 +28,11 @@ print(bits)"""
 
 # String Manipulation
 
-my_string = "HelloMyNameIsAish"
+"""my_string = "HelloMyNameIsAish"
+my_string = "".join([i if i.islower() else " " + i for i in my_string])
+print(my_string)"""
 
-my_string = [i for i in my_string]
-print(my_string)
-
-
-
-
+a = "HelloMyNameIsAish"
+for i in a :
+    print(i)
 
