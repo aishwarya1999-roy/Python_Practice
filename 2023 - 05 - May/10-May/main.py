@@ -16,7 +16,7 @@ if __name__ == "__main__" :  # if we add this , then the callme() function will 
     callme()
 """
 
-# List Comprehension
+# modifying list using List Comprehension
 
 fruits = ["apple", "grapes", "mango"]
 fruits = [fruit.upper() for fruit in fruits]
