@@ -21,3 +21,5 @@ if __name__ == "__main__" :  # if we add this , then the callme() function will 
 fruits = ["apple", "grapes", "mango"]
 fruits = [fruit.upper() for fruit in fruits]
 print(fruits)
+
+
