@@ -30,4 +30,10 @@ print(bits)"""
 
 my_string = "HelloMyNameIsAish"
 
-[]
+my_string = [i for i in my_string]
+print(my_string)
+
+
+
+
+
