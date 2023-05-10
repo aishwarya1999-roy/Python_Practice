@@ -18,8 +18,16 @@ if __name__ == "__main__" :  # if we add this , then the callme() function will 
 
 # modifying list using List Comprehension
 
-fruits = ["apple", "grapes", "mango"]
+"""fruits = ["apple", "grapes", "mango"]
 fruits = [fruit.upper() for fruit in fruits]
-print(fruits)
+print(fruits)"""
 
+"""bits = [False, True, False, False, True, False, False, True]
+bits = [1 if b == True else 0 for b in bits]
+print(bits)"""
 
+# String Manipulation
+
+my_string = "HelloMyNameIsAish"
+
+[]
