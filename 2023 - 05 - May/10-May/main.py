@@ -21,9 +21,12 @@ if __name__ == "__main__" :  # if we add this , then the callme() function will 
 fruits = ["apple", "grapes", "mango"]
 new_fruits = []
 
-
 for fruit in fruits:
-    fruit = fruit.upper()
-print(fruits)
+    print(fruit.upper())
+"""    fruit = fruit.upper()
+    new_fruits.append(fruit)
 
-[print(i) for i in fruits]
+fruits = new_fruits
+print(fruits)
+"""
+#[print(i) for i in fruits]
