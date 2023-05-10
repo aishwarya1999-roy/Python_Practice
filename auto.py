@@ -9,4 +9,4 @@ def git_auto_commit(comment):
 
 while True:
     git_auto_commit("Update")
-    time.sleep(60)
+    time.sleep(900)
