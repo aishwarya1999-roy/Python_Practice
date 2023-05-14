@@ -74,7 +74,7 @@ def generate_random_word(original_word) :
 
 
 # Example usage
-original_word = "Password123!"
+original_word = "123"
 random_word = generate_random_word(original_word)
 print(f"Random Word: {random_word}")
 
