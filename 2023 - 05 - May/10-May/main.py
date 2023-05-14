@@ -57,19 +57,26 @@ print(my_dict)
 
 import random
 import string
+
+
 def generate_random_word(original_word) :
     word_length = len(original_word)
     possible_characters = string.ascii_letters + string.digits + string.punctuation
-    while True :
-        random_word = ''.join(random.choice(possible_characters) for _ in range(word_length))
-        if random_word == original_word :
-            return random_word
+
+    random_word = ''
+    while random_word != original_word :
+        random_char = random.choice(possible_characters)
+        random_word += random_char
+        if len(random_word) > word_length :
+            random_word = random_word[:-1]  # Remove last character if length exceeds original word
+
+    return random_word
+
+
 # Example usage
 original_word = "Password123!"
 random_word = generate_random_word(original_word)
 print(f"Random Word: {random_word}")
-
-
 
 
 
