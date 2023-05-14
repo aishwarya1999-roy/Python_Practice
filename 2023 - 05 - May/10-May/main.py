@@ -36,7 +36,14 @@ print(my_string)"""
 
 # Dictionary Comprehension
 
+names = ['Aish', 'Soumya', 'Ria']
+prof = ['Programmer', 'Gamer', 'Designer']
+my_dict = {}
+"""for (key, value) in zip(names, prof):
+    my_dict[key]=value"""
 
-
+for i in range(3):
+    my_dict[names[i]] = prof[i]
+print(my_dict)
 
 
