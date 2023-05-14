@@ -69,7 +69,7 @@ def generate_random_word(original_word) :
         random_word += random_char
         if len(random_word) > word_length :
             random_word = random_word[:-1]  # Remove last character if length exceeds original word
-
+        print(random_word)
     return random_word
 
 
