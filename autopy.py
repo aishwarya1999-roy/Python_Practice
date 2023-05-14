@@ -31,8 +31,8 @@ if __name__ == "__main__":
     observer.start()
 
     try:
-        # Run the observer for a specific duration (in seconds)
-        observer.join(timeout=10)  # Change the timeout value as needed
+        while True:
+            pass
     except KeyboardInterrupt:
         observer.stop()
     observer.join()
