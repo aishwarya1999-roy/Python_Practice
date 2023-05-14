@@ -50,6 +50,6 @@ print(my_dict)
 
 names = ['Aish', 'Soumya', 'Ria']
 prof = ['Programmer', 'Gamer', 'Designer']
-
-my_dict = {key : value for (key, value) in zip(names, prof)}
+# my_dict = {key : value for (key, value) in zip(names, prof)}
+my_dict = {names[i] : prof[i] for i in range(len(names))}
 print(my_dict)
