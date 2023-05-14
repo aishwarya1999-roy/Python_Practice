@@ -55,19 +55,36 @@ my_dict = {names[i] : prof[i] for i in range(len(names))}
 print(my_dict)
 """
 
-
-import itertools
+import random
 import string
+import time
 
-def guess_password(real):
-    chars = string.ascii_lowercase + string.digits
-    attempts = 0
-    for password_length in range(8, 9):
-        for guess in itertools.product(chars, repeat=password_length):
-            attempts += 1
-            guess = ''.join(guess)
-            if guess == real:
-                return 'password is {}. found in {} guesses.'.format(guess, attempts)
-            print(guess, attempts)
+def generate_random_word(original_word) :
+    word_length = len(original_word)
+    possible_characters = string.ascii_letters + string.digits + string.punctuation
 
-print(guess_password('abc'))
+    random_word = ''
+    while random_word != original_word :
+        random_char = random.choice(possible_characters)
+        random_word += random_char
+        if len(random_word) > word_length :
+            random_word = random_word[:-1]  # Remove last character if length exceeds original word
+
+    return random_word
+
+
+# Example usage
+original_word = "a"
+
+start_time = time.time()
+random_word = generate_random_word(original_word)
+end_time = time.time()
+
+execution_time = end_time - start_time
+random_word = generate_random_word(original_word)
+print(f"Random Word: {random_word}")
+print(f"Execution Time: {execution_time} seconds")
+
+
+
+
