@@ -71,5 +71,5 @@ bases = ["A", "T", "C", "G"]
 stand1 = random.choices(bases, k =10)
 print(stand1)
 
-dna = {key: [val, ()] for (key, val) in enumerate(stand1)}
+dna = {key: [val, ("T" if val =="A" else "")] for (key, val) in enumerate(stand1)}
 print(dna)
