@@ -88,4 +88,4 @@ data = [{key: {i if key == "id" else users[i] if key == "username" else None} fo
 #print(data)
 
 password = random.choices(string.printable, k = 8)
-print(password)
+print(''.join(password))
