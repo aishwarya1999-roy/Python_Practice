@@ -72,3 +72,4 @@ stand1 = random.choices(bases, k =10)
 print(stand1)
 
 dna = {key: [] for (key, val) in enumerate(stand1)}
+print(dna)
