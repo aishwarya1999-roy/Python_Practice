@@ -48,19 +48,21 @@ print(my_dict)
 
 # Dictionary Comprehension
 
+# using list/ tuple
 """names = ['Aish', 'Soumya', 'Ria']
 prof = ['Programmer', 'Gamer', 'Designer']
 # my_dict = {key : value for (key, value) in zip(names, prof)}
 my_dict = {names[i] : prof[i] for i in range(len(names))}
 print(my_dict)
 """
-
-my_dict = {
+# using dictionaries - if we know the data of the dictionaries
+"""my_dict = {
     "Spider": "photographer",
     "Bat": "philanthropist",
     "Wonder Wo": "nurse"
 }
 my_dict = {(key + "man" if key!= "Spider" else "Superman") : (val if val!= 'photographer' else "Journalist")for (key, val) in my_dict.items()}
 print(my_dict)
+"""
 
-
+# if we don't know the data of the dict.
