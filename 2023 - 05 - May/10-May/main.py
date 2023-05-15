@@ -81,4 +81,4 @@ print(dna)"""
 # list of dictionaries
 
 keys = ["id", "username", "password"]
-users = ["mariyasha888", "KnotAbot", "spongiBOBO", "IAMBATMAN"]
+users = ["mariyasha888", "KnotAbot"]
