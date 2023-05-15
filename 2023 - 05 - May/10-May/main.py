@@ -83,4 +83,5 @@ print(dna)"""
 keys = ["id", "username", "password"]
 users = ["id00", "name0099"]
 
-[{} for i in range(len(users))]
+data = [{} for i in range(len(users))]
+print(data)
