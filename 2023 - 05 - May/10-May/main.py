@@ -58,7 +58,7 @@ print(my_dict)
 my_dict = {
     "Spider" : "123",
     "Bat" : "22",
-    "Wonder Wo" "54"
+    "Wonder Wo" : "54"
 }
 
 
