@@ -68,7 +68,7 @@ print(my_dict)
 # if we don't know the data of the dict.
 import random
 bases = ["A", "T", "C", "G"]
-stand1 = random.choices(bases, k =10)
+stand1 = random.choices(bases, k =100)
 print(stand1)
 
 dna = {key: [val, ("T" if val =="A" else "A" if val == "T" else "C" if val == "G" else "G")] for (key, val) in enumerate(stand1)}
