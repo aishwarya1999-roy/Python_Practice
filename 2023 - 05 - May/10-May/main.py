@@ -81,7 +81,7 @@ print(dna)"""
 # list of dictionaries
 
 keys = ["id", "username", "password"]
-users = ["id00", "name0099"]
+users = ["Queen", "Blacy"]
 
 data = [{key : None for key in keys } for i in range(len(users))]
 print(data)
