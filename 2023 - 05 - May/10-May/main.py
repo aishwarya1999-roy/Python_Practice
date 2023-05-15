@@ -60,8 +60,6 @@ my_dict = {
     "Bat" : "22",
     "Wonder Wo" : "54"
 }
-
-
-
+{key+"man": val for (key,val) in my_dict.items()} 
 
 
