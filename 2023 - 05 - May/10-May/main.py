@@ -70,7 +70,7 @@ print(my_dict)
 
 """import random
 bases = ["A", "T", "C", "G"]
-stand1 = random.choices(bases, k = 5)
+stand1 = random.choices(bases, k = 10)
 print(stand1)
 
 dna = {key : [val, ("T" if val == "A" else "A" if val == "T" else "C" if val == "G" else "G")] for (key, val) in
