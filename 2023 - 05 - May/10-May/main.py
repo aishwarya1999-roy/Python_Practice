@@ -56,9 +56,9 @@ print(my_dict)
 """
 
 my_dict = {
-    "Spider" : "123",
-    "Bat" : "22",
-    "Wonder Wo" : "54"
+    "Spider": "123",
+    "Bat": "22",
+    "Wonder Wo": "54"
 }
 my_dict = {key + "man" : val for (key, val) in my_dict.items()}
 print(my_dict)
