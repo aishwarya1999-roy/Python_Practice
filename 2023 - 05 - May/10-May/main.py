@@ -68,5 +68,5 @@ print(my_dict)
 # if we don't know the data of the dict.
 import random
 bases = ["A", "T", "C", "G"]
-stand1 = random.choices(bases, k =5)
+stand1 = random.choices(bases, k =10)
 print(stand1)
