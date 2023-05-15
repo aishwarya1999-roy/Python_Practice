@@ -69,4 +69,4 @@ print(my_dict)
 import random
 bases = ["A", "T", "C", "G"]
 stand1 = random.choices(bases, k =10)
-print("".join(stand1))
+print(stand1)
