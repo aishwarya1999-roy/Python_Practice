@@ -62,3 +62,5 @@ my_dict = {
 }
 my_dict = {(key + "man" if key!= "Spider" else "Superman") : val for (key, val) in my_dict.items()}
 print(my_dict)
+
+
