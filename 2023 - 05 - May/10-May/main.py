@@ -71,4 +71,4 @@ bases = ["A", "T", "C", "G"]
 stand1 = random.choices(bases, k =10)
 print(stand1)
 
-{key: [] for (key, val) in enumerate(stand1)}
+dna = {key: [] for (key, val) in enumerate(stand1)}
