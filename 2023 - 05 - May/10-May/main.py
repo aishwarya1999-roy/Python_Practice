@@ -86,3 +86,5 @@ users = ["Queen", "Blacy"]
 
 data = [{key: {i if key == "id" else users[i] if key == "username" else None} for key in keys} for i in range(len(users))]
 print(data)
+
+random
