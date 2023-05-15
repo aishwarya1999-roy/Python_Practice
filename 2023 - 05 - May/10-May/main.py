@@ -60,5 +60,5 @@ my_dict = {
     "Bat": "22",
     "Wonder Wo": "54"
 }
-my_dict = {key + "man" : val for (key) in my_dict}
+my_dict = {key + "man" : None for (key) in my_dict}
 print(my_dict)
