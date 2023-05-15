@@ -87,5 +87,5 @@ users = ["Queen", "Blacy"]
 data = [{key: {i if key == "id" else users[i] if key == "username" else None} for key in keys} for i in range(len(users))]
 #print(data)
 
-password = random.choice(string.printable, k = 8)
+password = random.choices(string.printable, k = 8)
 print(password)
