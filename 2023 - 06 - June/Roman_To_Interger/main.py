@@ -4,7 +4,5 @@ def romanToInt(x) :
         for key, val in dict_roman.items():
             if key == x:
                 print(val)
-            else:
-                break
 
 romanToInt('V')
