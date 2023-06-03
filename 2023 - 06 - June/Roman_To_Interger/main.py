@@ -13,7 +13,7 @@ romanToInt('II')
 user_input = input("Enter a string: ")
 
 # Slice the string into individual alphabets
-sliced_alphabets = [char for char in user_input if char.isalpha()]
+sliced_alphabets = [x for x in user_input if x.isalpha()]
 
 # Print the sliced alphabets
 print("Individual alphabets:", sliced_alphabets)
