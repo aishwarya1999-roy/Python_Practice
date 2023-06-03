@@ -20,3 +20,4 @@ class LinkedList:
 
 if __name__ == '__main__':
     ll = LinkedList()
+    ll.print()
