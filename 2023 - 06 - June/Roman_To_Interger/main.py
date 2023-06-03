@@ -15,7 +15,8 @@ L = 0
 for i in range(len(S)-1):
     if dict_roman[S[i]] < dict_roman[S[i+1]]:
         L -= dict_roman[S[i]]
-
+    else:
+        
 print(L)
 
 
