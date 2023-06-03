@@ -19,6 +19,8 @@ for key, val in dict_roman.items():
         if key == i:
             if S in minus:
                 L = val - L
+            elif 
+
             else:
                 L = L+val
 print(L)
