@@ -10,7 +10,7 @@ S.romanToInt('I')"""
 
 
 dict_roman = {"I" : 1, "V" : 5, "X" : 10, "L" : 50, "C" : 100, "D" : 500, "M" : 1000}
-S = "III"
+S = "I"
 sliced = [x for x in S]
 for key, val in dict_roman.items():
     for i in sliced:
