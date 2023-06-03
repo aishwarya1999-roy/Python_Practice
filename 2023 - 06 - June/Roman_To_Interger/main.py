@@ -21,7 +21,7 @@ def romanToInt(S) :
             print(L)
     return L
     
-print(romanToInt("IX"))
+print(romanToInt("XI"))
 
 
 
