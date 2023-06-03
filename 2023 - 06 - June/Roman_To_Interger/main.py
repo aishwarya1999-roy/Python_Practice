@@ -12,16 +12,7 @@ S.romanToInt('I')"""
 dict_roman = {"I" : 1, "V" : 5, "X" : 10, "L" : 50, "C" : 100, "D" : 500, "M" : 1000}
 S = "IV"
 L = 0
-sliced = [x for x in S]
-for key, val in dict_roman.items():
-    for i in sliced:
-        if key == i:
-            if S in minus:
-                L = val - L
-            elif
 
-            else:
-                L = L+val
 print(L)
 
 
