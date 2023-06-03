@@ -11,4 +11,9 @@ class LinkedList:
         if self.head is None:
             print("Linked list is empty")
             return
-        
+        itr = self.head
+        llstr = ''
+        while itr :
+            llstr += str(itr.data) + ' --> ' if itr.next else str(itr.data)
+            itr = itr.next
+        print(llstr)
