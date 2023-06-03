@@ -9,10 +9,11 @@
 romanToInt('II')"""
 
 
-
+I = 5
 user_input = input("Enter a string: ")
 sliced_alphabets = [x for x in user_input]
 print("Individual alphabets:", sliced_alphabets)
+sum(sliced_alphabets)
 
 
 
