@@ -1,4 +1,4 @@
-class Solution:
+"""class Solution:
     def romanToInt(self, s: str) -> int:
         dict_roman = {"I": 1, "V": 5, "X": 10, "L": 50, "C": 100, "D": 500, "M": 1000}
         for key, val in dict_roman.items():
@@ -6,16 +6,16 @@ class Solution:
                 print(int(val))
 
 S = Solution()
-S.romanToInt('I')
+S.romanToInt('I')"""
 
 
-"""dict_roman = {"I" : 1, "V" : 5, "X" : 10, "L" : 50, "C" : 100, "D" : 500, "M" : 1000}
+dict_roman = {"I" : 1, "V" : 5, "X" : 10, "L" : 50, "C" : 100, "D" : 500, "M" : 1000}
 user_input = input("Enter a string: ")
 for key, val in dict_roman.items():
     sliced_alphabets = [x for x in user_input]
     print("Individual alphabets:", sliced_alphabets)
-    sum(sliced_alphabets)
-"""
+    #sum(sliced_alphabets)
+
 
 
 
