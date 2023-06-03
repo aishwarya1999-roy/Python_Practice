@@ -21,7 +21,7 @@ def romanToInt(s) :
     return L + dict_roman[S[-1]]
 
 
-print(romanToInt("I"))
+print(romanToInt("IV"))
 
 
 
