@@ -6,5 +6,4 @@ class solution:
 
 
 if __name__ == "__main__" :
-    ll = solution
-    ll.romanToInt()
+    solution.romanToInt()
