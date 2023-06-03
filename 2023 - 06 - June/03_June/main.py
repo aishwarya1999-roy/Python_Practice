@@ -17,3 +17,6 @@ class LinkedList:
             llstr += str(itr.data) + ' --> '
             itr = itr.next
         print(llstr)
+
+if __name__ == '__main__':
+    ll = LinkedList()
