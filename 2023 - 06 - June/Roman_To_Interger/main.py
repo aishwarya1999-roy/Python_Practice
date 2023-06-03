@@ -5,7 +5,7 @@ def romanToInt(x : str) :
             if key == x:
                 print(val)
             else:
-                
+
 romanToInt('II')
 
 
