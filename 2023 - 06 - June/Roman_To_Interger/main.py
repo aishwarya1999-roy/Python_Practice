@@ -6,4 +6,5 @@ class solution:
 
 
 if __name__ == "__main__" :
-    solution
+    ll = solution
+    
