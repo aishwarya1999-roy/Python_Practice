@@ -18,6 +18,7 @@ def romanToInt(S) :
             print(L)
         else:
             L = L + dict_roman[S[i]]
+            print(L)
     return L
     
 print(romanToInt("IX"))
