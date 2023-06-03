@@ -9,9 +9,8 @@ S = Solution()
 S.romanToInt('I')"""
 
 
-def romanToInt(s) :
+def romanToInt(S) :
     dict_roman = {"I" : 1, "V" : 5, "X" : 10, "L" : 50, "C" : 100, "D" : 500, "M" : 1000}
-    S = "XVI"
     L = 0
     for i in range(len(S)-1):
         if dict_roman[S[i]] < dict_roman[S[i+1]]:
@@ -21,7 +20,7 @@ def romanToInt(s) :
     return L + dict_roman[S[-1]]
 
 
-print(romanToInt())
+print(romanToInt("X"))
 
 
 
