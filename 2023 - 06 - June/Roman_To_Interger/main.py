@@ -7,7 +7,7 @@ def romanToInt(x : str) :
 
 
 
-romanToInt('II')
+romanToInt('I')
 
 
 """user_input = input("Enter a string: ")
