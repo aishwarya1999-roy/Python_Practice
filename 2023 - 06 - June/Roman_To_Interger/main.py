@@ -4,6 +4,7 @@ def romanToInt(x) :
         for key, val in dict_roman.items():
             if key == x:
                 print(val)
-        print("Not in Dictionary")
+            else:
+                break
 
 romanToInt('I')
