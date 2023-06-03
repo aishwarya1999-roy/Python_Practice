@@ -4,6 +4,6 @@ def romanToInt(x : str) :
         for key, val in dict_roman.items():
             if key == x:
                 print(val)
-           
 
-romanToInt('II')
+
+romanToInt('I')
