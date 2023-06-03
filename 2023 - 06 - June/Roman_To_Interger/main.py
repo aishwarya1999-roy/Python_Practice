@@ -5,6 +5,6 @@ def romanToInt(x) :
             if key == x:
                 print(val)
             else:
-                
 
-romanToInt('M')
+
+romanToInt('II')
