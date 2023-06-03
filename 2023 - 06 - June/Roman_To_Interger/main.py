@@ -14,13 +14,11 @@ def romanToInt(S) :
     L = 0
     for i in range(len(S)-1):
         if dict_roman[S[i]] < dict_roman[S[i+1]]:
-            L -= dict_roman[S[i]]
+            L = L - dict_roman[S[i]]
         else:
-            L +=dict_roman[S[i]]
+            L = L + dict_roman[S[i]]
     return L + dict_roman[S[-1]]
-
-
-print(romanToInt("XIX"))
+print(romanToInt("I"))
 
 
 
