@@ -25,4 +25,4 @@ if __name__ == '__main__':
     ll = LinkedList()
     ll.insert_at_beginnin(5)
     ll.insert_at_beginnin(10)
-    ll.print()
+    
