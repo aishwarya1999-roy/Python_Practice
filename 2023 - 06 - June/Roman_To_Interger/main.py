@@ -5,4 +5,4 @@ def romanToInt(x) :
             if key == x:
                 print(val)
 
-romanToInt('C')
+romanToInt('D')
