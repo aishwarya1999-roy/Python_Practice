@@ -15,9 +15,10 @@ def romanToInt(S) :
     for i in range(len(S)-1):
         if dict_roman[S[i]] < dict_roman[S[i+1]]:
             L = L - dict_roman[S[i]]
+            print(L)
         else:
             L = L + dict_roman[S[i]]
-    return L 
+    return L
     
 print(romanToInt("IX"))
 
