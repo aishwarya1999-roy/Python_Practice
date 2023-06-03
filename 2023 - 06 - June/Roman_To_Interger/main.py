@@ -15,7 +15,7 @@ sliced = [x for x in S]
 for key, val in dict_roman.items():
     for i in sliced:
         if key == i:
-            print(sum(val))
+            print(val)
 
 
 
