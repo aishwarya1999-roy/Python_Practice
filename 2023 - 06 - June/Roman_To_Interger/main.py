@@ -21,6 +21,10 @@ def romanToInt(S) :
     
 print(romanToInt("XIX"))
 
+-1+
+L =10
+10-1=9
+9+10
 
 
 """def romanToInt(x: str) :
