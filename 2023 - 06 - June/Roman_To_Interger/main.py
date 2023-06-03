@@ -5,5 +5,4 @@ class solution:
         print(dict_roman)
 
 
-if __name__ == "__main__" :
-    solution.romanToInt()
+solution.romanToInt()
