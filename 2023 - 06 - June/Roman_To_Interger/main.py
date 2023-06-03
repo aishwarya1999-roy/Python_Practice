@@ -5,4 +5,5 @@ class Solution :
         print(dict_roman)
 
 
-Solution
+if __name__ == "__main__":
+    Solution
