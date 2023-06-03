@@ -14,10 +14,15 @@ minus = ["IV", "IX", "XL", "XC", "CD", "CM"]
 S = "VI"
 L = 0
 sliced = [x for x in S]
+
+
 for key, val in dict_roman.items():
     for i in sliced:
         if key == i:
-            L = L+val
+            if S in minus:
+                L = val - L
+            else:
+                L = L+val
 print(L)
 
 
