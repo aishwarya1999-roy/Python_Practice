@@ -14,7 +14,7 @@ S = "IV"
 L = 0
 for i in range(len(S)-1):
     print(dict_roman[S[i]])
-print(L)
+#print(L)
 
 
 
