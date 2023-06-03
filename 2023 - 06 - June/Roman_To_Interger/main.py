@@ -17,7 +17,7 @@ def romanToInt(S) :
             L = L - dict_roman[S[i]]
         else:
             L = L + dict_roman[S[i]]
-    return L + dict_roman[S[-1]]
+    return L + dict_roman[S[1]]
     
 print(romanToInt("IX"))
 
