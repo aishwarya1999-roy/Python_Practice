@@ -18,7 +18,7 @@ for key, val in dict_roman.items():
     for i in sliced:
         if key == i:
             if S in minus:
-                print(val)
+                L = val - L
             else:
                 L = L+val
 print(L)
