@@ -19,5 +19,5 @@ class LinkedList:
         print(llstr)
 
 if __name__ == '__main__':
-    ll = LinkedList()
+    ll = LinkedList() 
     ll.print()
