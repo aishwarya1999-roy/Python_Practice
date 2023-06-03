@@ -20,7 +20,8 @@ def romanToInt(s) :
             L +=dict_roman[S[i]]
     return L + dict_roman[S[-1]]
 
-romanToInt('I')
+
+print(romanToInt("I"))
 
 
 
