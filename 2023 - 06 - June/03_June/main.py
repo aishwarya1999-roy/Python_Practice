@@ -14,6 +14,6 @@ class LinkedList:
         itr = self.head
         llstr = ''
         while itr :
-            llstr += str(itr.data) + ' --> ' if itr.next else str(itr.data)
+            llstr += str(itr.data) + ' --> '
             itr = itr.next
         print(llstr)
