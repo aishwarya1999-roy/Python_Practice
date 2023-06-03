@@ -10,11 +10,13 @@ S.romanToInt('I')"""
 
 
 dict_roman = {"I" : 1, "V" : 5, "X" : 10, "L" : 50, "C" : 100, "D" : 500, "M" : 1000}
-user_input = input("Enter a string: ")
+S = "III"
+sliced = [x for x in S]
 for key, val in dict_roman.items():
-    sliced_alphabets = [x for x in user_input]
-print("Individual alphabets:", sliced_alphabets)
-    #sum(sliced_alphabets)
+    for i in sliced:
+        if key == i:
+            print(val)
+
 
 
 
