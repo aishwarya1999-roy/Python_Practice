@@ -13,7 +13,7 @@ dict_roman = {"I" : 1, "V" : 5, "X" : 10, "L" : 50, "C" : 100, "D" : 500, "M" : 
 S = "IV"
 L = 0
 for i in range(len(S)-1):
-    print(S[i])
+    print(dict_roman[S[i]])
 print(L)
 
 
