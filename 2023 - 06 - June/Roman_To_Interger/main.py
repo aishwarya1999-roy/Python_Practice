@@ -7,4 +7,4 @@ class solution:
 
 if __name__ == "__main__" :
     ll = solution
-    print(ll)
+    ll
