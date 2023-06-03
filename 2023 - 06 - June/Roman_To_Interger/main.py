@@ -10,7 +10,7 @@ S.romanToInt('I')"""
 
 
 dict_roman = {"I" : 1, "V" : 5, "X" : 10, "L" : 50, "C" : 100, "D" : 500, "M" : 1000}
-minus = ["IV", "IX", "XL", "XC", "CD", "" ]
+minus = ["IV", "IX", "XL", "XC", "CD", "CM" ]
 S = "XXVII"
 L = 0
 sliced = [x for x in S]
