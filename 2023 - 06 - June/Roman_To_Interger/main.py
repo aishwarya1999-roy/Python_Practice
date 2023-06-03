@@ -34,6 +34,7 @@ romanToInt('I')"""
 
 def romanToInt(x: str) :
     dict_roman = {"I" : "1", "V" : "5", "X" : "10", "L" : "50", "C" : "100", "D" : "500", "M" : "1000"}
-    d = int(''.join([dict_roman[x[i]] for i in range(len(x))]))
+    total = 0
+    d = int(''.join([total-=dict_roman[x[i]] for i in range(len(x))]))
     print(d)
 romanToInt('V')
