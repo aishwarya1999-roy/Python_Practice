@@ -12,4 +12,4 @@ for i in range(0,5):
 c = []
 for i in range(5, 0, -1):
     c.append('*'*i)
-    print(c[:01])
+    print(c[:1])
