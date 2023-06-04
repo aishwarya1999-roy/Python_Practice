@@ -1,4 +1,4 @@
-class Node:
+"""class Node:
     def __init__(self, data=None, next=None):
         self.data = data
         self.next = next
@@ -25,4 +25,6 @@ if __name__ == '__main__':
     ll = LinkedList()
     ll.insert_at_beginnin(5)
     ll.insert_at_beginnin(10)
-    ll.print()
+    ll.print()"""
+
+
