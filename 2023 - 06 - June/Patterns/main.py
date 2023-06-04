@@ -26,7 +26,9 @@ for i in range(5, 0, -1):
 #1234
 #12345
 
-c = []
+"""c = []
 for i in range(1, 6):
     c.append(str(i))
-    print(int(''.join(c)))
+    print(int(''.join(c)))"""
+
+
