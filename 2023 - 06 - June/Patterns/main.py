@@ -34,5 +34,5 @@ for i in range(1, 6):
 
 c = []
 for i in range(5, 0, -1):
-    c.append(i)
+    c.append(i*i)
     print(c)
