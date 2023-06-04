@@ -38,21 +38,8 @@ print(linked_list)"""
 
 #queue
 
-"""queue = deque()
+queue = deque()
 for i in range(0,5):
-    queue.append('*')
-    print(queue)"""
-"""c = []
-for i in range(0,5):
-    c.append('*')
-    print(''.join(c))"""
+    queue.append(i)
+    print(queue)
 
-"""c = []
-for i in range(5, 0, -1):
-    c.append('*' * i)
-    print(c)"""
-
-c = []
-for i in range(5, 0, -1):
-    c.append(str(i))
-    print(int(''.join(c)))
