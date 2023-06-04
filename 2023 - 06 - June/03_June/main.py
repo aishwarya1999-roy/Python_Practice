@@ -33,5 +33,5 @@ linked_list.append(0)
 linked_list.appendleft(1)
 linked_list.appendleft(2)
 linked_list.pop()
-linked_list.popleft()
+
 print(linked_list)
