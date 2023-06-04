@@ -27,11 +27,15 @@ if __name__ == '__main__':
     ll.insert_at_beginnin(10)
     ll.print()"""
 #deque
-from collections import deque
+
+"""from collections import deque
 linked_list = deque()
 linked_list.append(0)
 linked_list.appendleft(1)
 linked_list.appendleft(2)
 linked_list.pop()
+print(linked_list)"""
 
-print(linked_list)
+#queue
+
+queue = dec
