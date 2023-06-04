@@ -27,4 +27,5 @@ if __name__ == '__main__':
     ll.insert_at_beginnin(10)
     ll.print()"""
 
+
 linked_list = deque (
