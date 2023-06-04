@@ -31,5 +31,6 @@ from collections import deque
 linked_list = deque()
 linked_list.append(2)
 linked_list.appendleft(1)
+linked_list.appendleft(2)
 linked_list.pop()
 print(linked_list)
