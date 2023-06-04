@@ -52,6 +52,7 @@ for i in range(5, 0, -1):
     c.append('*' * i)
     print(c)"""
 
-
+c = []
 for i in range(5, 0, -1):
-    print(i)
+    c.append(i)
+    print(c)
