@@ -31,7 +31,7 @@ for i in range(1, 6):
     c.append(str(i))
     print(int(''.join(c)))"""
 for i in range(1, 6):
-    for j in range(1, i):
+    for j in range(1, i+1):
         print(j, end = ' ')
     print()
 
