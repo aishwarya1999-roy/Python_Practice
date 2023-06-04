@@ -30,4 +30,5 @@ if __name__ == '__main__':
 from collections import deque
 linked_list = deque()
 linked_list.append(2)
+linked_list.appendleft(1)
 print(linked_list)
