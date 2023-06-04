@@ -20,3 +20,7 @@ for i in range(5, 0, -1):
     c.append('*'*i)
     print(c[-1])"""
 
+c = []
+for i in range(5, 0, -1):
+    c.append(str(i))
+    print(int(''.join(c)))
