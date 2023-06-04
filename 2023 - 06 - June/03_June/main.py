@@ -27,6 +27,6 @@ if __name__ == '__main__':
     ll.insert_at_beginnin(10)
     ll.print()"""
 
-
+from collections import deque
 linked_list = deque ()
 
