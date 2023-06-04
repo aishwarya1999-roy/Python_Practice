@@ -28,5 +28,6 @@ if __name__ == '__main__':
     ll.print()"""
 
 from collections import deque
-linked_list = deque ()
+linked_list = deque()
+
 
