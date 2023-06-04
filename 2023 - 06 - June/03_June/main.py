@@ -29,5 +29,5 @@ if __name__ == '__main__':
 
 from collections import deque
 linked_list = deque()
-linked_list
+linked_list.append(2)
 
