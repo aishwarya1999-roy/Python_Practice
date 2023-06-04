@@ -28,8 +28,8 @@ if __name__ == '__main__':
     ll.print()"""
 #deque
 
-"""from collections import deque
-linked_list = deque()
+from collections import deque
+"""linked_list = deque()
 linked_list.append(0)
 linked_list.appendleft(1)
 linked_list.appendleft(2)
@@ -38,4 +38,7 @@ print(linked_list)"""
 
 #queue
 
-queue = dec
+queue = deque()
+for i in range(0,5):
+    queue.append(i)
+    print(queue)
