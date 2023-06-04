@@ -49,5 +49,5 @@ for i in range(0,5):
 
 c = []
 for i in range(5, 0, -1):
-    c.append('*')
+    c.append('*' * i)
     print(''.join(c))
