@@ -21,6 +21,6 @@ for i in range(5, 0, -1):
     print(c[-1])"""
 
 c = []
-for i in range(1, 5):
+for i in range(1, 6):
     c.append(str(i))
     print(int(''.join(c)))
