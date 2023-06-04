@@ -28,4 +28,5 @@ if __name__ == '__main__':
     ll.print()"""
 
 
-linked_list = deque (
+linked_list = deque ()
+
