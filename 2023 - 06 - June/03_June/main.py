@@ -54,5 +54,5 @@ for i in range(5, 0, -1):
 
 c = []
 for i in range(5, 0, -1):
-    c.append(i)
-    print(c)
+    c.append(str(i))
+    print(''.join(c))
