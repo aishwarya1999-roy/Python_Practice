@@ -42,6 +42,7 @@ print(linked_list)"""
 for i in range(0,5):
     queue.append('*')
     print(queue)"""
-
+c = []
 for i in range(0,5):
-    print(i)
+    c.append('*')
+    print(c)
