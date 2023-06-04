@@ -33,6 +33,6 @@ for i in range(1, 6):
 
 
 c = []
-for i in range(1, 5, -1):
+for i in range(5, 0, -1):
     c.append(str(i))
     print(c[::-1])
