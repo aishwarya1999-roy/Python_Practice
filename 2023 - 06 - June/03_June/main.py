@@ -40,5 +40,5 @@ print(linked_list)"""
 
 queue = deque()
 for i in range(0,5):
-    queue.append(i)
+    queue.append('*')
     print(queue)
