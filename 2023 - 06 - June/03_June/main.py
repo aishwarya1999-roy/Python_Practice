@@ -48,6 +48,6 @@ for i in range(0,5):
     print(''.join(c))"""
 
 c = []
-for i in range(0,5, -1):
+for i in range(5, 0, -1):
     c.append('*')
     print(''.join(c))
