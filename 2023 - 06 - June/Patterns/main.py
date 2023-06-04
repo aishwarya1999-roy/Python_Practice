@@ -33,6 +33,6 @@ for i in range(1, 6):
 
 
 c = []
-for i in range(6, 1, -1):
+for i in range(5, 0, -1):
     c.append(str(i))
     print(int(''.join(c)))
