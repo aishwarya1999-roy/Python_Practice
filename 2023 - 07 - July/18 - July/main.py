@@ -5,11 +5,12 @@ array = [1,2,3,5,8]
 
 inp = 3
 f = 0
-for i in range(len(array)):
-    for j in range(i+1, len(array)):
-        if array[i] + array[j] == inp:
-            return [i,j]
+def twosum():
+    for i in range(len(array)):
+        for j in range(i+1, len(array)):
+            if array[i] + array[j] == inp:
+                return [i,j]
 
-        
+
 
 
