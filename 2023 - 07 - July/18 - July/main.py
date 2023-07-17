@@ -7,6 +7,9 @@ inp = 3
 f = 0
 for i in range(len(array)):
     for j in range(i+1, len(array)):
-        print(j)
+        if array[i] + array[j] == inp:
+            return [i,j]
+
+        
 
 
