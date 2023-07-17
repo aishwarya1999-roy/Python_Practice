@@ -3,9 +3,10 @@
 
 array = [1,2,3,5,8]
 
-inp = int(input("Set the target : "))
+inp = 3
 f = 0
-for i in range(len(array)):
+for i in array:
     print(i)
+
 
 
