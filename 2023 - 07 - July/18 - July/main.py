@@ -3,13 +3,14 @@
 
 array = [5, 2, 7, 5, 8]
 inp = int(input("Enter the target : "))
-arr = reversed(sorted(array))
+arr = array.sort(reverse=True)
 print(arr)
+
 def twosum():
     for i in range(len(array)):
         for j in range(i + 1, len(array)):
             if array[i] + array[j] == inp:
                 return [i, j]
             else:
-                print("")
+                print("Error")
 print(twosum())
