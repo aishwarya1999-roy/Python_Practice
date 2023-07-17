@@ -3,7 +3,7 @@
 
 array = [5, 2, 7, 5, 8]
 inp = int(input("Enter the target : "))
-arr = sorted(array)
+arr = reversed(sorted(array))
 print(arr)
 def twosum():
     for i in range(len(array)):
