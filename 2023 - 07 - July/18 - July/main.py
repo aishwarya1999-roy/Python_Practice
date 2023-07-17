@@ -7,7 +7,7 @@ inp = 3
 f = 0
 for i in range(len(array)):
     for j in range(len(array)):
-        
+
 
 
 
