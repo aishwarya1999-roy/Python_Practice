@@ -6,7 +6,7 @@ inp = int(input("Enter the target : "))
 arr = array.sort(reverse=True)
 print(arr)
 
-def twosum():
+"""def twosum():
     for i in range(len(array)):
         for j in range(i + 1, len(array)):
             if array[i] + array[j] == inp:
@@ -14,3 +14,4 @@ def twosum():
             else:
                 print("Error")
 print(twosum())
+"""
