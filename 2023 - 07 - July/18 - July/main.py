@@ -6,7 +6,8 @@ array = [1,2,3,5,8]
 inp = 3
 f = 0
 for i in array:
-    
+    for j in array:
+        print(i+j)
 
 
 
