@@ -17,5 +17,5 @@ def twosum():
                 return f
 if f == 1:
     print(f"Please Enter target till max {arr[0]+arr[1]}")
-
-print(twosum())
+else:
+    print(twosum())
