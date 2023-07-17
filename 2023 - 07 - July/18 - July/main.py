@@ -4,7 +4,7 @@
 array = [5, 2, 7, 5, 8]
 inp = int(input("Enter the target : "))
 arr = array.sort(reverse=True)
-print(arr)
+print(array)
 
 """def twosum():
     for i in range(len(array)):
