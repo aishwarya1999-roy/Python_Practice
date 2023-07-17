@@ -15,5 +15,5 @@ def twosum():
                 f = 1
                 return f
     if f == 1:
-        ProcessLookupError
+        print(f"Please Enter target till max {arr[0]+arr[1]}")
 print(twosum())
