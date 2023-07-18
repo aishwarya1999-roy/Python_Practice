@@ -5,17 +5,15 @@ array = [8, 2, 7, 5, 1]
 
 inp = int(input("Enter the target : "))
 arr = sorted(array)[::-1]
-f = 0
-def twosum():
 
+def twosum():
+    f = 0
     for i in range(len(array)):
         for j in range(i + 1, len(array)):
             if array[i] + array[j] == inp:
                 return [i, j]
             else:
                 f = 1
-                return f
-if 1:
-    print("INVALID")
-else:
-    print(twosum())
+    if 1:
+        print("INVALID")
+print(twosum())
