@@ -16,6 +16,6 @@ def twosum():
                 f = 1
                 return f
 if 1:
-    print(f"ERROR!! Please enter a target till max {arr[0]+arr[1]}.")
+    print("INVALID")
 else:
     print(twosum())
