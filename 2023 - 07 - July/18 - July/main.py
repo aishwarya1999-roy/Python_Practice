@@ -14,6 +14,6 @@ def twosum():
                 return [i, j]
             else:
                 f = 1
-    if f == 1:
+    if f == 0:
         print("INVALID")
 print(twosum())
