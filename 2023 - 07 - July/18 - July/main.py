@@ -13,3 +13,5 @@ def twosum():
             if array[i] + array[j] == inp:
                 return [i, j]
 print(twosum())
+
+
