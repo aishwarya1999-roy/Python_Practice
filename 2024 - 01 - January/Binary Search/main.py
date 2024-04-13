@@ -48,6 +48,9 @@ else:
 
 # ----------- recursive method --------------
 # time complexity = O(logn)
+
+# binary_Search
+
 """def binary_search(arr,l,h,key):
     if l <= h:
         mid = (l + h) // 2
@@ -72,3 +75,35 @@ else:
 """T(n) = T(n/2) + 1
 so, t(n) = O(n^0 log n)
          =  O(log n)"""
+
+
+# binary_Search
+def binary_search(arr, l, h, key):
+    if l <= h:
+        mid = (l + h) // 2
+        if arr[mid] == key:
+            return mid
+        elif key < arr[mid]:
+            return binary_search(arr, l, mid - 1, key)
+        else:
+            return binary_search(arr, mid + 1, h, key)
+    else:
+        return -1
+arr = [3, 6, 8, 12, 14, 17, 25, 29, 31, 36, 42, 47, 53, 55, 62]
+l, h = 0, len(arr) - 1
+key = int(input("Search element : "))
+pos = binary_search(arr, l, h, key)
+if pos == -1:
+    print("Not found")
+else:
+    print(f"Search element {key} Found at position {pos}")
+
+
+
+
+
+
+
+
+
+
