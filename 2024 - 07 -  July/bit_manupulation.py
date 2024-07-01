@@ -24,12 +24,11 @@ binary_string = "101"
 print(binary_to_decimal(binary_string))"""
 
 # Swap two numbers without using third variable
-a = 5
+"""a = 5
 b = 6
 a = a^b
 b=a^b
 a=a^b
 print(a,b)
-
-
+"""
 
