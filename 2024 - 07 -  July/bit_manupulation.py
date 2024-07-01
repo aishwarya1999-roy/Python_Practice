@@ -1,3 +1,4 @@
+# decimal_to_binary
 """def decimal_to_binary(x):
     res = ""
     while x > 0:
@@ -11,7 +12,7 @@ x = 15
 print(decimal_to_binary(x))"""
 
 
-
+# binary_to_decimal
 
 """def binary_to_decimal(binary_str):
     decimal_value = 0
@@ -22,6 +23,7 @@ print(decimal_to_binary(x))"""
 binary_string = "101"
 print(binary_to_decimal(binary_string))"""
 
+# Swap two numbers without using third variable
 a = 5
 b = 6
 a = a^b
