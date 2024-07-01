@@ -1,0 +1,103 @@
+intiger 32 bit
+long long 64 bit
+
+----------- AND operator (symbol &) -----------
+
+both true -> true (1 AND 1 = 1) ( 13 & 7 = 15)
+
+one false > false ( 1 AND 0 = 0)
+
+both false -> false ( 0 AND 0 = 0 )
+
+x = 13 = 1101
+
+y = 07 = 0111
+------------------
+x & y  = 0101 = 5
+------------------
+
+
+---------- OR operator (symbol | ) ------------
+ 
+one true -> true (0 OR 1 = 1) (13 | 7 = 15 )
+
+all false -> false (O OR 0 = 0 )
+
+both true -> true (1 OR 1 = 1)
+
+x = 13 = 1101
+
+y = 07 = 0111
+------------------
+x | y  = 1111 = 15
+------------------
+
+
+----------- XOR operator (symbol ^ ) -------------
+
+no. of 1, odd -> 1 (13 ^ 7 = 10)
+no. of 1 even -> 0
+
+x = 13 = 1101
+y = 07 = 0111
+------------------
+x ^ y  = 1010 = 10
+------------------
+
+----------- right shift operator (symbol >> ) -------------
+13 >> 1 = 6
+
+1101 >> 1
+0110 (6)
+
+1101 >> 2
+0011 = 3
+
+1101 >> 4
+0000
+
+x >> k = x/(2^k)
+
+
+----------- Left shift operator (symbol << ) -------------
+
+-13 = 2's complement = 1 as negetive , 0 as positive 
+31st bit of 32 bit is stored for sign.
+
+(2^31 - 1) int max
+(-2^31) int min
+
+1101 << 1
+1010
+
+x << k = x * 2^k
+
+
+----------- NOT operator (symbol ~ ) -------------
+
+x = ~(5) = (-6)
+
+  0    00000............101
+sign   ----------5---------
+  1    11111............010  (flip)
+it is negetive as the sign is 1, (stop here only if it is positive)
+  1    00000............101
+                        + 1
+-----------------------------
+  1    00000............110  = (-6)
+-----------------------------
+
+x = ~(-6) = 5
+making 2's complement as it is a negetive number
+    0   0000............110 (6)
+
+    1   1111............001 (1's complement)
+                     + 1
+-----------------------------
+    1   1111............010 (-6)
+-----------------------------
+ 1  1111............010 
+ 0  0000............101  (flip - not operation) (5)
+
+ it is not negetive as sign is 0, ans is (00000.....101) = 5
+
