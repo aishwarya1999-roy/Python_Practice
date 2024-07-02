@@ -33,25 +33,25 @@ print(a,b)
 """
 
 #check if the ith bit is set or not using << 
-n = 13
+"""n = 13
 i = 2
 if (n & (1<<i)) != 0:
     print("Set")
 else:
-    print("unset")
+    print("unset")"""
 
 #check if the ith bit is set or not using << 
-n = 13
+"""n = 13
 i = 1
 if ((n >> i) & 1) != 0:
     print("Set")
 else:
-    print("unset")
+    print("unset")"""
 
 #set the ith bit
-n = 9
+"""n = 9
 i = 2
-print(n|(1<<i))
+print(n|(1<<i))"""
 
 # Three Consecutive Odds
 
