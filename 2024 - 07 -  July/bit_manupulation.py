@@ -55,6 +55,6 @@ print(n|(1<<i))"""
 
 #clear the set in ith bit
 
-n = 9
+n = 13
 i = 2
-print(n&(1<<i))
+print(n^(1<<i))
