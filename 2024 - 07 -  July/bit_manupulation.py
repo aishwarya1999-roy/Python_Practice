@@ -53,4 +53,7 @@ n = 9
 i = 2
 print(n|(1<<i))
 
+# Three Consecutive Odds
+
+arr =[1,2,3,5,7,6,7]
 
