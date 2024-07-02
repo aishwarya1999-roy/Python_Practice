@@ -59,6 +59,6 @@ arr =[1,2,3,5,7,6,7]
 n = len(arr)
 for i in range(0,n):
     if arr[i]%2 != 0 and arr[(i+1)]%2 != 0 and arr[(i+2)]%2 != 0:
-        print(i,i+1,i+2)
+        print(arr[i],arr[i+1],arr[i+2])
     else:
         continue
