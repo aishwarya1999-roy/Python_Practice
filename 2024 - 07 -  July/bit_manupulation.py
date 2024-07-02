@@ -32,3 +32,18 @@ a=a^b
 print(a,b)
 """
 
+#check if the ith bit is set or not using << 
+n = 13
+i = 2
+if (n & (1<<i)) != 0:
+    print("Set")
+else:
+    print("unset")
+
+#check if the ith bit is set or not using << 
+n = 13
+i = 1
+if ((n >> i) & 1) != 0:
+    print("Set")
+else:
+    print("unset")
