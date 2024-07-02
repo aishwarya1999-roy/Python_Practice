@@ -65,8 +65,8 @@ for i in range(n - 2):  # Adjust the loop to stop at n-2
 #approch 2
 def three_consecutive_odds(arr):
     count = 0
-    for num in arr:
-        if num % 2 != 0:
+    for i in arr:
+        if i % 2 != 0:
             count += 1
             if count == 3:
                 return True
