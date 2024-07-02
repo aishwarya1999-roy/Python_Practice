@@ -59,5 +59,6 @@ i = 2
 print(n& ~(1<<i))
 
 #toggle the ith bit
-
+n = 12
+i = 2
 print(n^(1<<i))
