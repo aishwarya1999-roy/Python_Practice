@@ -62,7 +62,7 @@ for i in range(n - 2):  # Adjust the loop to stop at n-2
     if arr[i] % 2 != 0 and arr[i + 1] % 2 != 0 and arr[i + 2] % 2 != 0:
         print(arr[i], arr[i + 1], arr[i + 2])"""
 
-#approch 2 - counting
+#approch 2 - Using a Counter
 def three_consecutive_odds(arr):
     count = 0
     for i in arr:
