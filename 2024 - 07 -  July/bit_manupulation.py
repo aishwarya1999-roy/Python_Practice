@@ -76,4 +76,4 @@ def three_consecutive_odds(arr):
 
 # Example usage:
 arr = [2, 6, 4, 1, 3, 5]
-print(three_consecutive_odds(arr))  # Output: True
+print(three_consecutive_odds(arr))
