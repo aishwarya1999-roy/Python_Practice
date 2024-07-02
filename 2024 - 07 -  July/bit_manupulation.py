@@ -55,8 +55,9 @@ print(n|(1<<i))"""
 
 # Three Consecutive Odds
 
-arr =[1,2,3,5,7,6,7]
+arr = [1, 2, 3, 5, 7, 6, 7]
 n = len(arr)
-for i in range(0,n):
-    if arr[i]%2 != 0 and arr[(i+1)]%2 != 0 and arr[(i+2)]%2 != 0:
-        print(arr[i],arr[i+1],arr[i+2])
+
+for i in range(n - 2):  # Adjust the loop to stop at n-2
+    if arr[i] % 2 != 0 and arr[i + 1] % 2 != 0 and arr[i + 2] % 2 != 0:
+        print(arr[i], arr[i + 1], arr[i + 2])
