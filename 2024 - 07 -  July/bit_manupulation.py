@@ -61,7 +61,7 @@ for i in range(0,n):
     for j in range(i+1, n):
         for k in range(i+2, n):
             if i%2== 0 and j%2 == 0 and k%2 == 0:
-                print(i,j,k)
-            else:
                 print("False")
+            else:
+                print(i,j,k)
         
