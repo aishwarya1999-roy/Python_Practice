@@ -58,3 +58,4 @@ print(n|(1<<i))"""
 n = 13
 i = 2
 print(n^(1<<i))
+print(n& ~(1<<i))
