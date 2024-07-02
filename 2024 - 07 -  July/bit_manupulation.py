@@ -55,7 +55,7 @@ print(n|(1<<i))"""
 
 # Three Consecutive Odds
 
-arr = [1, 2, 3, 4, 3, 9, 7]
+arr = [1, 2, 3, 4, 3, 9, 7, 4, 5,7,9]
 n = len(arr)
 
 for i in range(n - 2):  # Adjust the loop to stop at n-2
