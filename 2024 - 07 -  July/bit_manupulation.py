@@ -54,13 +54,13 @@ i = 2
 print(n|(1<<i))"""
 
 #clear the set in ith bit
-n = 9
-i = 2
+"""n = 9
+i = 2"""
 print(n& ~(1<<i))
 
 #toggle the ith bit
 
-print(n^(1<<i))
+#print(n^(1<<i))
 
 
 
