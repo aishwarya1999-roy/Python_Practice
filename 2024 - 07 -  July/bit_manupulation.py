@@ -41,4 +41,4 @@ print(n& ~(1<<i))"""
 #remove the last set bit
 n = 12
 i=2
-print(1<<i)
+print(n&(1<<i))
