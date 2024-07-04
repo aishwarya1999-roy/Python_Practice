@@ -61,3 +61,4 @@ print(n& ~(1<<i))
 #toggle the ith bit
 
 print(n^(1<<i))
+
