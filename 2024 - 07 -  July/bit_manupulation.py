@@ -38,6 +38,6 @@ print(n& ~(1<<i))"""
 #print(n^(1<<i))
 
 
-
-
+#remove the last set bit
+n = 12
 
