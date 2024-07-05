@@ -39,6 +39,60 @@ print(n& ~(1<<i))"""
 
 
 #remove the last set bit
-n = 12
-i=2
-print(n&(1<<i))
+"""N = 12
+print(N&(N-1))"""
+
+#check number is power of 2 or not
+"""N = 18
+if (N&(N-1)) == 0:
+    print("power of 2")
+else:
+    print("not")"""
+
+#count num of set bit
+
+#way 1 - brute force
+"""def count_set(n):
+    count = 0
+    while n>1:
+        if n%2==1:
+            count+=1
+            
+        n=n//2
+    if n == 1:
+        count += 1
+    
+    return count
+
+n = 30
+print(count_set(n))"""
+
+#way 2 - bitwis
+"""def count_set(n):
+    count = 0
+    while n>1:
+        count+=n&1
+        n=n>>1
+    if n == 1:
+        count+=n&1
+    return count
+n = 84
+print(count_set(n))"""
+
+#way 2 - bitwis
+def count_set(n):
+    count = 0
+    while n!= 0:
+        n = n & (n-1)
+        count+=1
+    return count
+n = 84
+print(count_set(n))
+
+
+#odd even using bitwise opearators
+"""n = 16
+if n&1 == 1:
+    print("Odd")
+else:
+    print("even")"""
