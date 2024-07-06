@@ -79,20 +79,23 @@ print(count_set(n))"""
 n = 84
 print(count_set(n))"""
 
-#way 2 - bitwis
-def count_set(n):
+#way 3 - bitwis
+"""def count_set(n):
     count = 0
     while n!= 0:
         n = n & (n-1)
         count+=1
+
     return count
 n = 84
 print(count_set(n))
 
-
+"""
 #odd even using bitwise opearators
 """n = 16
 if n&1 == 1:
     print("Odd")
 else:
     print("even")"""
+
+
