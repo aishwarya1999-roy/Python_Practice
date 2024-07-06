@@ -35,9 +35,12 @@ print(z)
 """
 
 
-nums = [5,9,14,21,566]
+"""nums = [5,9,14,21,566]
 
 def even(x):
     return x&1
 
-print(list(filter(even,nums)))
+print(list(filter(even,nums)))"""
+
+
+arr1 = [1,1,5,4,3,3,5,6,7,2,7,6,2]
