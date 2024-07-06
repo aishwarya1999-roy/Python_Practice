@@ -22,11 +22,8 @@ print(squared)
 """
 
 def map_p(my_iter):
-    res =[]
-    for i in my_iter:
-        new_item = my_func(i)
-        res.append(new_item)
-    return(res)
+    return my_iter**2
+
 nums = [3,4,5,6,7]
 y = [map_p(num) for num in nums]
 print(y)
