@@ -20,10 +20,10 @@ nums = [3,4,5,6,7]
 squared = map_p(lambda x: x**2, nums)
 print(squared)
 """
-nums = [3,4,5,6,7]
+"""nums = [3,4,5,6,7]
 
 squared = list(map(lambda x: x**2, nums))
 print(squared)
-
+"""
 db = lambda x: x*2
 print(db)
