@@ -29,4 +29,4 @@ y = [map_p(num) for num in nums]
 
 z=list(map(map_p, nums))
 print(y)
-
+print(z)
