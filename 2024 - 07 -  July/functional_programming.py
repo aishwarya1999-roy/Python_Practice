@@ -25,5 +25,5 @@ print(squared)
 squared = list(map(lambda x: x**2, nums))
 print(squared)
 """
-db = lambda x: x*2
+db = lambda *x: x*2
 print(db(5,6))
