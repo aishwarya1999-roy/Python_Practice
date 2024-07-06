@@ -35,7 +35,7 @@ print(z)
 """
 
 
-nums = [3,4,5,6,7]
+nums = [5,9,14,21,566]
 
 def even(x):
     return x&1
