@@ -21,7 +21,7 @@ squared = map_p(lambda x: x**2, nums)
 print(squared)
 """
 
-def map_p(my_iter):
+"""def map_p(my_iter):
     return my_iter**2
 
 nums = [3,4,5,6,7]
@@ -32,3 +32,12 @@ z=list(map(map_p, nums))
 
 print(y)
 print(z)
+"""
+
+num_list=[10,20,30,40,50]
+print("Map example")
+print(list(map(lambda x:x*2,num_list)))
+print("Filter Example")
+print(list(filter(lambda x:x>30,num_list)));
+print("Chain Example")
+print(list(filter(lambda x:x>30,map(lambda x:x*2,num_list))));
