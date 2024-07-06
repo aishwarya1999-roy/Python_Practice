@@ -22,6 +22,6 @@ print(squared)
 """
 nums = [3,4,5,6,7]
 
-squared = (lambda x: x**2, nums)
+squared = map(lambda x: x**2, nums)
 print(squared)
 
