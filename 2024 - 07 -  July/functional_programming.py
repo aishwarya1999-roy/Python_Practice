@@ -21,7 +21,7 @@ squared = map_p(lambda x: x**2, nums)
 print(squared)
 """
 
-def map_p(my_func, my_iter):
+def map_p(my_iter):
     res =[]
     for i in my_iter:
         new_item = my_func(i)
