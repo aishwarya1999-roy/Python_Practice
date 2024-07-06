@@ -9,7 +9,7 @@ print(add2(5,4))
 
 print((lambda x,y : x+y)(6,4))"""
 
-def map_p(my_func, my_iter):
+"""def map_p(my_func, my_iter):
     res =[]
     for i in my_iter:
         new_item = my_func(i)
@@ -18,4 +18,9 @@ def map_p(my_func, my_iter):
 nums = [3,4,5,6,7]
 
 squared = map_p(lambda x: x**2, nums)
+print(squared)
+"""
+nums = [3,4,5,6,7]
+
+squared = map(lambda x: x**2, nums)
 print(squared)
