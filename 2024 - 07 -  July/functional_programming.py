@@ -16,3 +16,4 @@ def map_p(my_func, my_iter):
         res.append(new_item)
     return(res)
 nums = [3,4,5,6,7]
+print(map_p(nums))
