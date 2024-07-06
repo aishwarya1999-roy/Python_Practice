@@ -20,6 +20,13 @@ nums = [3,4,5,6,7]
 squared = map_p(lambda x: x**2, nums)
 print(squared)
 """
+
+def map_p(my_func, my_iter):
+    res =[]
+    for i in my_iter:
+        new_item = my_func(i)
+        res.append(new_item)
+    return(res)
 nums = [3,4,5,6,7]
 
 squared = list(map(lambda x: x**2, nums))
