@@ -16,4 +16,8 @@ def map_p(my_func, my_iter):
         res.append(new_item)
     return(res)
 nums = [3,4,5,6,7]
-print(map_p(nums))
+
+def square(x):
+    return x * x
+
+print(map_p(square, nums))
