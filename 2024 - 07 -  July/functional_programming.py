@@ -17,5 +17,5 @@ def map_p(my_func, my_iter):
     return(res)
 nums = [3,4,5,6,7]
 
-squared = map_p(lambda x: x**2, nums)
+squared = map_p(lambda x: x*2, nums)
 print(squared)
