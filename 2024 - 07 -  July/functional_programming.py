@@ -28,5 +28,6 @@ nums = [3,4,5,6,7]
 y = [map_p(num) for num in nums]
 
 z=list(map(map_p, nums))
+
 print(y)
 print(z)
