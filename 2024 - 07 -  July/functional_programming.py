@@ -40,4 +40,4 @@ nums = [5,9,14,21,566]
 def even(x):
     return x&1
 
-print(list(map(even,nums)))
+print(list(filter(even,nums)))
