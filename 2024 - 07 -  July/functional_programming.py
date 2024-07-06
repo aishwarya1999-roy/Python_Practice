@@ -2,6 +2,6 @@
     return x+y
 print(add(5,6))"""
 
-x=5
-y=5
-print(lambda x,y : x+y)
+
+add2= lambda x,y : x+y
+print(add2(5,4))
