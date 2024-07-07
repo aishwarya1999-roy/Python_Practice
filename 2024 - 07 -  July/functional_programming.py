@@ -53,8 +53,8 @@ arr1 = [1,1,5,4,3,3,5,6,7,2,7,6,2]"""
 
 from functools import reduce
 
-arr1 = [3,2,1,4,5]
-print(reduce(lambda x,y : x+y, arr1))
+arr1 = [3,2,1,4,5] 
+print(reduce(lambda x,y : x+y, arr1)) #print sum
 print(reduce(lambda x,y : x if x>y else y, arr1)) #print max
 print(reduce(lambda x,y : x if x<y else y, arr1)) #print min
 
