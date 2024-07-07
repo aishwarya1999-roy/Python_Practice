@@ -68,5 +68,5 @@ print(reduce(lambda x,y : x^y, arr1))
 print(reduce(lambda x,y : x if x>y else y, arr1))
 
 
-
+print(1 ^ 1 ^ 5 ^ 3 ^ 3 ^ 5 ^ 6 ^ 7 ^ 2 ^ 7 ^ 6 ^ 2)
 
