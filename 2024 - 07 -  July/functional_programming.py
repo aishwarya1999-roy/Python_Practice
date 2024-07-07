@@ -40,8 +40,10 @@ print(z)
 # filter function
 
 """nums = [5,9,14,21,566]
+
 def even(x):
     return x&1
+
 print(list(filter(even,nums)))"""
 
 #reduce function    
@@ -56,4 +58,4 @@ print(reduce(lambda x,y : x+y, arr1))
 print(reduce(lambda x,y : x if x>y else y, arr1))
 print(reduce(lambda x,y : x if x<y else y, arr1))
 
-print(list(filter(lambda x: "Odd" if x&1 else "Even", arr1)))
+print(list(filter(lambda x: x&1, arr1)))
