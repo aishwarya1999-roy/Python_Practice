@@ -7,7 +7,7 @@ a=a^b
 print(a,b)
 """
 
-print(2^3)
+print(2^8)
 
 #check if the ith bit is set or not using << 
 """n = 13
