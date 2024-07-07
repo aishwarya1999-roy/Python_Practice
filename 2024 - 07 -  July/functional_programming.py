@@ -60,4 +60,5 @@ print(reduce(lambda x,y : x if x<y else y, arr1))
 
 print(list(filter(lambda x: x&1, arr1)))
 x=4
-print(x&1)
+if x&1 == 1:
+    print("Odd")
