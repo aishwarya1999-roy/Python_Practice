@@ -64,7 +64,7 @@ print(list(map(lambda x: "Odd" if x&1 == 1 else "even", arr1))) #print odd or ev
 
 #find the unique element (which is only one occurance in list) from a list of numbers
 arr1 = [1,1,5,4,3,3,5,6,7,2,7,6,2]
-unique = reduce(lambda x,y : , arr1)
+unique = reduce(lambda x,y : x if x^y == 0 else "not found", arr1)
 
 print(unique)
 
