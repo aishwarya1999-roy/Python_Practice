@@ -40,10 +40,8 @@ print(z)
 # filter function
 
 """nums = [5,9,14,21,566]
-
 def even(x):
     return x&1
-
 print(list(filter(even,nums)))"""
 
 #reduce function    
