@@ -7,7 +7,9 @@ a=a^b
 print(a,b)
 """
 
-print(4^4)
+arr1 = [1,1,5,4,3,3,5,6,7,2,7,6,2]
+for i in arr1:
+    print(x^y)
 
 #check if the ith bit is set or not using << 
 """n = 13
