@@ -57,3 +57,5 @@ arr1 = [3,2,1,4,5]
 print(reduce(lambda x,y : x+y, arr1))
 print(reduce(lambda x,y : x if x>y else y, arr1))
 print(reduce(lambda x,y : x if x<y else y, arr1))
+
+print(list(filter(lambda x: x if x&1 == 1 else y)))
