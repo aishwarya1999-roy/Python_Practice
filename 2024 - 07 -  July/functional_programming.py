@@ -62,3 +62,5 @@ print(list(filter(lambda x: x&1, arr1)))
 x=3
 if x&1 == 1:
     print("Odd")
+else:
+    print("Odd")
