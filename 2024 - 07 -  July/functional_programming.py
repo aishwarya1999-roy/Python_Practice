@@ -63,5 +63,9 @@ print(list(map(lambda x: "Odd" if x&1 == 1 else "even", arr1))) #print odd or ev
 
 
 
+arr1 = [1,1,5,4,3,3,5,6,7,2,7,6,2]
+unique = reduce(lambda x, y : , arr1)
+
+
 
 
