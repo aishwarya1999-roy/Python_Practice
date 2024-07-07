@@ -9,7 +9,7 @@ print(a,b)
 
 arr1 = [1,1,5,4,3,3,5,6,7,2,7,6,2]
 for i in arr1:
-    print(x^y)
+    print(arr1[i]^arr1[i+1])
 
 #check if the ith bit is set or not using << 
 """n = 13
