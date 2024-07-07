@@ -63,4 +63,4 @@ x=3
 if x&1 == 1:
     print("Odd")
 else:
-    print("Odd")
+    print("Even")
