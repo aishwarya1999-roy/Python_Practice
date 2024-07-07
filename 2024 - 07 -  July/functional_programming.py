@@ -59,5 +59,5 @@ print(reduce(lambda x,y : x if x>y else y, arr1))
 print(reduce(lambda x,y : x if x<y else y, arr1))
 
 print(list(filter(lambda x: x&1, arr1)))
-x=3
+x=4
 print(x&1)
