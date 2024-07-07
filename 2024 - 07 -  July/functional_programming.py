@@ -55,11 +55,13 @@ from functools import reduce
 
 arr1 = [3,2,1,4,5]
 print(reduce(lambda x,y : x+y, arr1))
-print(reduce(lambda x,y : x if x>y else y, arr1))
-print(reduce(lambda x,y : x if x<y else y, arr1))
+print(reduce(lambda x,y : x if x>y else y, arr1)) #print max
+print(reduce(lambda x,y : x if x<y else y, arr1)) #print min
 
 print(list(filter(lambda x: x&1, arr1))) #print odd 
 print(list(map(lambda x: "Odd" if x&1 == 1 else "even", arr1))) #print odd or even
+
+
 
 
 
