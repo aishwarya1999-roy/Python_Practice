@@ -59,4 +59,4 @@ print(reduce(lambda x,y : x if x>y else y, arr1))
 print(reduce(lambda x,y : x if x<y else y, arr1))
 
 print(list(filter(lambda x: x&1, arr1)))
-print(filter(lambda x: "Odd" if x&1 == 1 else "even", arr1))
+print(list(filter(lambda x: "Odd" if x&1 == 1 else "even", arr1)))
