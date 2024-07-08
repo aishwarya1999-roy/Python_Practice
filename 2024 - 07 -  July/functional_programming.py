@@ -109,4 +109,4 @@ for num in arr:
 
 # Input example
 arr = [5,7,3]
-print(minimum_decrement_operations(input_array))"""
+print(minimum_decrement_operations(arr))"""
