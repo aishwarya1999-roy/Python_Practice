@@ -67,7 +67,7 @@ print(list(map(lambda x: "Odd" if x&1 == 1 else "even", arr1))) #print odd or ev
 print(reduce(lambda x,y : x^y, arr1))
 print(reduce(lambda x,y : x if x>y else y, arr1))"""
 
-arr = [5,7,1]
+arr = [5,7,3]
 xor_sum = 0
 for num in arr:
     xor_sum ^= num
