@@ -73,5 +73,5 @@ for num in arr:
     xor_sum ^= num
 
 for num in arr:
-        print(num^xor_sum)
+    print(num^xor_sum)
 
