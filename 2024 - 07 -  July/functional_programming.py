@@ -73,5 +73,7 @@ for num in arr:
     xor_sum ^= num
 
 for num in arr:
-    print(num^xor_sum)
-
+    target= num^xor_sum
+    print(target)
+    if target < num:
+        min_operations = min(min_operations, num - target)
