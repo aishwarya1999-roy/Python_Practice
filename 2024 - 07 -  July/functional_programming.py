@@ -75,6 +75,7 @@ min_operations = float('inf')
 for num in arr:
     target= num^xor_sum
     print(target)
+    print(min_operations)
     if target < num:
         min_operations = min(min_operations, num - target)
-        print(min_operations)
+        
