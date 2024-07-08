@@ -82,6 +82,7 @@ def minimum_decrement_operations(arr):
         target = num ^ xor_sum
         print(target)
         if target < num:
+            print(min_operations)
             print(num-target)
             min_operations = min(min_operations, num - target)
     
