@@ -91,8 +91,7 @@ def minimum_decrement_operations(arr):
     return -1 if min_operations == float('inf') else min_operations
 
 # Input example
-input_string = input("Enter the numbers separated by spaces: ")
-input_array = list(map(int, input_string.split()))
+input_array = list(map(int, input().split()))
 print(minimum_decrement_operations(input_array))
 
         
