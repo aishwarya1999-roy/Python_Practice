@@ -86,5 +86,5 @@ def minimum_decrement_operations(arr):
     
     return -1 if min_operations == float('inf') else min_operations
 
-arr = [5,7,8]
+arr = [5,7,15]
 print(minimum_decrement_operations(arr))
