@@ -67,8 +67,24 @@ print(list(map(lambda x: "Odd" if x&1 == 1 else "even", arr1))) #print odd or ev
 print(reduce(lambda x,y : x^y, arr1))
 print(reduce(lambda x,y : x if x>y else y, arr1))"""
 
+arr = [5,7,8]
+xor_sum = 0
+for num in arr:
+    xor_sum ^= num
+min_operations = float('inf')
+for num in arr:
+    target= num^xor_sum
+    print(target)
+    print(num)
+    #print(min_operations)
+    if target < num:
+        print(min_operations)
+        min_operations = min(min_operations, num - target)
+        
 
-def minimum_decrement_operations(arr):
+
+
+"""def minimum_decrement_operations(arr):
     # Calculate the XOR of the entire array
     xor_sum = 0
     for num in arr:
@@ -92,6 +108,4 @@ def minimum_decrement_operations(arr):
 
 # Input example
 input_array = list(map(int, input().split()))
-print(minimum_decrement_operations(input_array))
-
-        
+print(minimum_decrement_operations(input_array))"""
