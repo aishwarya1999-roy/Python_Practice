@@ -108,5 +108,5 @@ for num in arr:
     return -1 if min_operations == float('inf') else min_operations
 
 # Input example
-input_array = list(map(int, input().split()))
+arr = [5,7,3]
 print(minimum_decrement_operations(input_array))"""
