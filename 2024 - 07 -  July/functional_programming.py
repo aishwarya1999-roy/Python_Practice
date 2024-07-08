@@ -71,7 +71,7 @@ arr = [5,7,8]
 xor_sum = 0
 for num in arr:
     xor_sum ^= num
-
+min_operations = float('inf')
 for num in arr:
     target= num^xor_sum
     print(target)
