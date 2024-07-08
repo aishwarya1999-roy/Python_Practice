@@ -77,4 +77,5 @@ for num in arr:
     print(target)
     if target < num:
         min_operations = min(min_operations, num - target)"""
-print(float('inf'))
+min_operations = float('inf')
+print(min_operations)
