@@ -67,7 +67,7 @@ print(list(map(lambda x: "Odd" if x&1 == 1 else "even", arr1))) #print odd or ev
 print(reduce(lambda x,y : x^y, arr1))
 print(reduce(lambda x,y : x if x>y else y, arr1))"""
 
-arr = [1,1,5,4,3,3,5,6,7,2,7,6,2]
+arr = [1,4,72]
 for num in arr:
         print(num)
 
