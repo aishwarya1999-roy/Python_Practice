@@ -20,5 +20,5 @@ def binary_to_decimal(binary_str):
         if digit == '1':
             decimal_value += 2 ** i
     return decimal_value
-binary_string = "1000"
+binary_string = "1111"
 print(binary_to_decimal(binary_string))
