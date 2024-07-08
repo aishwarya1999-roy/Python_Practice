@@ -78,7 +78,7 @@ for num in arr:
     print(num)
     #print(min_operations)
     if target < num:
-        print(min_operations)
+        print(num-target)
         min_operations = min(min_operations, num - target)
         
 
