@@ -8,7 +8,7 @@ def decimal_to_binary(x):
             res+="0"
         x//=2
     return res[::-1]
-x = 5
+x = 7
 print(decimal_to_binary(x))
 
 
