@@ -68,6 +68,10 @@ print(reduce(lambda x,y : x^y, arr1))
 print(reduce(lambda x,y : x if x>y else y, arr1))"""
 
 arr = [5,7,8]
+xor_sum = 0
 for num in arr:
-        print(num)
+    xor_sum ^= num
+
+for num in arr:
+        print(num^xor_sum)
 
