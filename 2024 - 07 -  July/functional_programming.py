@@ -63,30 +63,8 @@ print(list(map(lambda x: "Odd" if x&1 == 1 else "even", arr1))) #print odd or ev
 
 
 #find the unique element (which is only one occurance in list) from a list of numbers
-"""arr1 = [1,1,5,4,3,3,5,6,7,2,7,6,2]
+arr1 = [1,1,5,4,3,3,5,6,7,2,7,6,2]
 print(reduce(lambda x,y : x^y, arr1))
-print(reduce(lambda x,y : x if x>y else y, arr1))"""
+print(reduce(lambda x,y : x if x>y else y, arr1))
 
 
-def minimum_decrement_operations(arr):
-    xor_sum = 0
-    for num in arr:
-        xor_sum ^= num
-    
-    if xor_sum == 0:
-        return -1
-    
-    min_operations = float('inf')
-    for num in arr:
-        print(num)
-        target = num ^ xor_sum
-        print(target)
-        if target < num:
-            print(min_operations)
-            print(num-target)
-            min_operations = min(min_operations, num - target)
-    
-    return -1 if min_operations == float('inf') else min_operations
-
-arr = [5,7,9]
-print(minimum_decrement_operations(arr))
