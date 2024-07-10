@@ -18,6 +18,6 @@ def coin_change(n, arr):
         for _ in range(count):
             print(coin)
 
-target_amount = 8
-denominations = [1, 3, 5, 6]
+target_amount = 15
+denominations = [1, 3, 5, 10]
 coin_change(target_amount, denominations)
