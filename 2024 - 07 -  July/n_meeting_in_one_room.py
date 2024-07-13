@@ -9,7 +9,6 @@ def max_meet(arr):
     return count
 start_time = [3, 1, 8, 5, 0, 5]
 end_time = [ 4, 2, 9, 7, 6, 9]
-# [(1, 2), (3, 4), (0, 6), (5, 7), (8, 9), (5, 9)]
 meetings = list(zip(start_time, end_time))
 print(max_meet(meetings))
 
