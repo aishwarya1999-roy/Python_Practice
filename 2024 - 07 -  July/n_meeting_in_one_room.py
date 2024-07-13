@@ -1,5 +1,7 @@
 def max_meet(arr):
-    return 0
+    count = 0
+
+    return count
 
 
 start_time = [3, 1, 8, 5, 0, 5]
