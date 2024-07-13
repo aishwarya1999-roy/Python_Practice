@@ -3,7 +3,7 @@ def max_meet(arr):
 
 start_time = [3, 1, 8, 5, 0, 5]
 end_time = [ 4, 2, 9, 7, 6, 9]
-pairs =list(zip(start_time, end_time))
-pairs.sort()
-print(pairs)
+pairs = list(zip(start_time, end_time))
+sorted_pairs = sorted(pairs, key=lambda x: x[1])
+print(sorted_pairs)
 
