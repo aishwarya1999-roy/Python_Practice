@@ -1,7 +1,7 @@
 def max_meet(arr):
     count = 0
     for i in range(0,len(arr)-1):
-        if arr[i][1] < arr[i+1][0]:
+        if arr[i+1][0] > arr[i][1]:
             count+=1
     return count
 
