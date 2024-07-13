@@ -1,7 +1,7 @@
 def max_meet(arr):
     count = 0
-    for i in range(0,len(arr)):
-        if arr[i]
+    """for i in range(0,len(arr)):
+        if arr[i]"""
     return count
 
 
