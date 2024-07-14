@@ -14,4 +14,4 @@ def candy_shop(N, price, K):
 N = 4
 price = [3,2,1,4] # 1, 2, 3, 4
 K = 2
-print(candy_shop(N, price, K))
+print(candy_shop(N, sorted(price), K))
