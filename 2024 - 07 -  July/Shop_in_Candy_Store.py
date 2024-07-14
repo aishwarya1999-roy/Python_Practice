@@ -1,6 +1,9 @@
 # N types  candies
 
-def candy_shop():
+def candy_shop(N, price, K):
+    max_money = 0
+    min_money = 0
+    
 
     return max_money
 
