@@ -6,7 +6,7 @@ def candy_shop(N, price, K):
     i=0
     while i<N:
         min_money += price[i]
-        i += (K + 1)
+        i += 1
     return min_money
 N = int(input("Enter amount for N : "))
 K = int(input("Enter amount for K : "))
