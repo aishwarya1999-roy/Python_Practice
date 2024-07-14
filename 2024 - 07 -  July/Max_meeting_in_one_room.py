@@ -15,4 +15,4 @@ S = [12, 6, 16, 12, 6, 9 , 16, 6, 17, 5]
 F =  [ 17, 13, 16, 18, 17, 10, 18, 12, 18, 11]
 
 selected_meetings = maxMeetings(S, F)
-print("The meetings that can be accommodated are:", selected_meetings)
+print(selected_meetings)
