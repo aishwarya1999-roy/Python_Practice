@@ -19,5 +19,5 @@ price = list(map(int, input()) for i in range(N))
 print(candy_shop(N, sorted(price), K))"""
 
 N = int(input("Enter amount for N : "))
-price = [list(map(int, input()) for i in range(N))]
+price = list(map(int, input()) for i in range(N))
 print(price)
