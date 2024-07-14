@@ -33,5 +33,5 @@ def min_cost_to_buy_all_candies(N, K, candies):
 # Example 1
 N = 4
 K = 2
-candies = [3, 2, 1, 4]
+candies = [3, 2, 1, 4,5]
 print(min_cost_to_buy_all_candies(N, K, candies))  # Output: 3
