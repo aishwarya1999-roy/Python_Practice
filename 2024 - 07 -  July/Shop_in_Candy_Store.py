@@ -8,7 +8,7 @@ def candy_shop(N, price, K):
     while len(price)>0:
         print("Before : ",i, price)
         min_money += price[i]
-        aaa = aaa.append([price.pop() for i in range(K)])
+        aaa.append([price.pop() for i in range(K)])
         print("After : " , aaa)
         i+=1
     return min_money
