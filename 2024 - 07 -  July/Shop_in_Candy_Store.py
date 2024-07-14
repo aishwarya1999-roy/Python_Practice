@@ -26,7 +26,7 @@ def min_cost_to_buy_all_candies(N, K, candies):
 
     print(num_candies_to_buy)
 
-    min_cost = sum(candies[:num_candies_to_buy])
+    #min_cost = sum(candies[:num_candies_to_buy])
     
     return min_cost
 
