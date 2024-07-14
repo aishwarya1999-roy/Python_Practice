@@ -11,7 +11,7 @@ def candy_shop(N, price, K):
         print("After : " , price)
         i+=1
     return min_money
-N = 4
-price = [3,2,1,4] # 1, 2, 3, 4
-K = 2
+N = 5
+price = [3,2,1,4, 5] # 1, 2, 3, 4
+K = 4
 print(candy_shop(N, sorted(price), K))
