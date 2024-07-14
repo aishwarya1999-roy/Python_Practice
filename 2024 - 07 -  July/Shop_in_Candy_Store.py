@@ -9,14 +9,9 @@ def candy_shop(N, price, K):
         print("Before : ",i, price)
         min_money += price[i]
         aaa = [price.pop() for i in range(K)]
-        print("After : " , price)
+        print("After : " , aaa)
         i+=1
-    return aaa
-
-
-
-
-
+    return min_money
 N = 4
 price = [3,2,1,4] # 1, 2, 3, 4
 K = 2
