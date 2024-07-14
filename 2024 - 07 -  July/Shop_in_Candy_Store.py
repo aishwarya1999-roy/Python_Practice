@@ -2,7 +2,7 @@
 
 def candy_shop(N, price, K):
     max_money = 0
-    min_money = 0
+    min_money = price[0]
     
 
     return min_money
