@@ -22,8 +22,8 @@ import math
 
 def min_cost_to_buy_all_candies(N, K, candies):
     candies.sort()
-    num_candies_to_buy = (N / (K + 1))
-
+    num_candies_to_buy = math.ceil(N / (K + 1))
+    
     print(num_candies_to_buy)
 
     min_cost = sum(candies[:num_candies_to_buy])
