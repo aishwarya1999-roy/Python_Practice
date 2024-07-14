@@ -2,8 +2,9 @@
 
 def candy_shop(N, price, K):
     max_money = 0
-    min_money = price[0]
-    for i in range(1,len(price))
+
+    for i in range(0,len(price)):
+        min_money = price[i]
 
 
     return min_money
