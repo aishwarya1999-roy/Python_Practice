@@ -1,6 +1,7 @@
 # N types  candies
 
 def candy_shop(N, price, K):
+    price.sort()
     min_money = 0
     i=0
     while i<N:
@@ -11,4 +12,4 @@ N = int(input("Enter amount for N : "))
 K = int(input("Enter amount for K : "))
 price = [int(input("Enter Element for candy : ")) for i in range(N)]
 
-print(candy_shop(N, sorted(price), K))
+print(candy_shop(N, price, K))
