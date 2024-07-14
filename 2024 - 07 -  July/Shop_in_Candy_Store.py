@@ -11,7 +11,7 @@ def candy_shop(N, price, K):
         aaa = [price.pop() for i in range(K)]
         print("After : " , price)
         i+=1
-    return min_money
+    return aaa
 
 
 
