@@ -22,4 +22,4 @@ price = [1,2,3,4,5,6]
 """for i in range(0,len(price)):
         min_money = price[i]
         print(min_money)"""
-print(price.pop())
+price.pop()
