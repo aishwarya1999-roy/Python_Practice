@@ -13,5 +13,5 @@ def candy_shop(N, price, K):
     return min_money
 N = input()
 price = [3,2,1,4] # 1, 2, 3, 4
-K = 2
+K = int(input("Enter amount for K : "))
 print(candy_shop(N, sorted(price), K))
