@@ -5,14 +5,12 @@ def candy_shop(N, price, K):
     min_money = 0
     i=0
     while len(price)>1:
-        print("Before : ",i, price)
         min_money += price[i]
         [price.pop() for i in range(K) if len(price)>1]
-        print("After : " , price)
         i+=1
     return min_money
 N = int(input("Enter amount for N : "))
 K = int(input("Enter amount for K : "))
-price = [int(input()) for i in range(N)]
+price = [int(input("Enter Element for candy : ")) for i in range(N)]
 
 print(candy_shop(N, sorted(price), K))
