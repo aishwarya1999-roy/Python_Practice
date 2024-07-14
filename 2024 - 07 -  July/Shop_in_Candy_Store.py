@@ -3,11 +3,11 @@
 def candy_shop(N, price, K):
     max_money = 0
     min_money = 0
-    for i in range(0,len(price)):
-        print(price)
-        min_money += price[i]
+    for j in range(0,len(price)):
+        print("Before : " , price)
+        min_money += price[j]
         [price.pop() for i in range(K)]
-        print(price)
+        print("After : " , price)
     return min_money
 
 
