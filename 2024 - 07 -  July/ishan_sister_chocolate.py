@@ -10,7 +10,7 @@ print(chocolate(arr, N))
 #sort
 def chocolate(arr, N):
     arr.sort()
-    return arr
+    return arr[0]
 
 
 N = 5
