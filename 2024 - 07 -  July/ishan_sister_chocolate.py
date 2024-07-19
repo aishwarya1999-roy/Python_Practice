@@ -1,7 +1,7 @@
 def chocolate(arr, N):
-    chocolate.sort()
+    arr.sort()
 
-    return chocolate
+    return arr
 
 
 N = 5
