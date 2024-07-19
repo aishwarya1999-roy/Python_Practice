@@ -1,5 +1,5 @@
 def chocolate(arr, N):
-    arr.sort(reversed = True)
+    arr.sort(reverse = True)
 
     return arr
 
