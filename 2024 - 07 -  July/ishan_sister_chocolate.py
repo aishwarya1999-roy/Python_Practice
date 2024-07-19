@@ -9,8 +9,6 @@ print(chocolate(arr, N))
 def chocolate(arr, N):
     arr.sort()
     return arr[0]
-
-
 N = 5
 arr = [5,3,1,6,9]
 print(chocolate(arr, N))
