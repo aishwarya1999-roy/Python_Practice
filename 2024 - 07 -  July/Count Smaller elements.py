@@ -2,7 +2,7 @@ def smaller_count(arr):
     
     new_ar = []
     N = len(arr)
-    for i in range(0,N-1):
+    for i in range(0,N):
         count = 0
         for j in range(i+1, N):
             if arr[j] < arr[i] :
