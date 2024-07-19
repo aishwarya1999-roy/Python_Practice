@@ -1,8 +1,9 @@
 def smaller_count(arr):
-    count = 0
+    
     new_ar = []
     N = len(arr)
     for i in range(0,N-1):
+        count = 0
         for j in range(i+1, N-1):
             if j < i :
                 count+=1
@@ -21,4 +22,4 @@ print(smaller_count(arr))
 11  count = 0+1+1+1+1+1
 4   count = 0+1+1+1+1+1+1 = 6
 
-1
+1  
