@@ -8,7 +8,7 @@ def smaller_count(arr):
         for j in range(i+1, N-1):
             if j < i :
                 count+=1
-        new_ar.append(count)
+            new_ar.append(count)
 
 
     return new_ar
