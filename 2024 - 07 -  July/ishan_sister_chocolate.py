@@ -9,7 +9,7 @@ print(chocolate(arr, N))
 
 #sort
 def chocolate(arr, N):
-    arr.sort(reverse = True)
+    arr.sort()
     return arr
 
 
