@@ -10,8 +10,6 @@ def smaller_count(arr):
 
 
     return new_ar
-
-
 arr = [12, 1, 2, 3, 0, 11, 4]
 print(smaller_count(arr))
 
