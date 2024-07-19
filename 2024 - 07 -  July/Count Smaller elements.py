@@ -1,5 +1,6 @@
 def smaller_count(arr):
-    for i in arr:
+    N = len(arr)
+    for i in range(0,):
         for j in range(i+1, len(arr)):
 
 
