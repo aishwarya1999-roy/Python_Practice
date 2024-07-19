@@ -1,37 +1,25 @@
-"""# N types  candies
-
 def candy_shop(N, price, K):
     price.sort()
-    min_money = 0
-    i=0
-    while i<N:
-        min_money += price[i]
-        [price.pop() for i in range(K)]
-        i += 1
-    return min_money
+    mini = 0
+    buy = 0
+    free = N - 1
+    while buy <= free:
+        mini = mini + price[buy]
+        buy += 1
+        free = free - K
 
+    maxi = 0
+    buy = N-1
+    free = 0
 
-N = int(input("Enter amount for N : "))
-K = int(input("Enter amount for K : "))
-price = [int(input("Enter Element for candy : ")) for i in range(N)]
+    while free <= buy:
+        maxi = maxi + price[buy]
+        buy-=1
+        free+=K
 
-print(candy_shop(N, price, K))
-"""
-
-import math
-
-def min_cost_to_buy_all_candies(N, K, candies):
-    candies.sort()
-    num_candies_to_buy = math.ceil(N / (K + 1))
-    
-    print(num_candies_to_buy)
-
-    min_cost = sum(candies[:num_candies_to_buy])
-    
-    return min_cost
-
-# Example 1
+    return mini, maxi
 N = 4
 K = 2
-candies = [3, 2, 1, 4,5,6,7]
-print(min_cost_to_buy_all_candies(N, K, candies))  # Output: 3
+price = [3,2,1,4] # 1 2 3 4
+
+print(candy_shop(N, price, K))
