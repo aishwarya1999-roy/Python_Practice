@@ -13,13 +13,3 @@ def smaller_count(arr):
     return new_ar
 arr = [12, 1, 2, 3, 0, 11, 4]
 print(smaller_count(arr))
-
-12  count = 0
-1   count = 0+1
-2   count = 0+1+1
-3   count = 0+1+1+1
-0   count = 0+1+1+1+1
-11  count = 0+1+1+1+1+1
-4   count = 0+1+1+1+1+1+1 = 6
-
-1  
