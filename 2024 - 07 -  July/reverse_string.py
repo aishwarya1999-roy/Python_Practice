@@ -1,7 +1,7 @@
 def reverseWords(S):
     d = reversed(S)
 
-    return S
+    return d
 
 S = "i.like.this.program.very.much"
 
