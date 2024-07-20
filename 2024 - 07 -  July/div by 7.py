@@ -1,6 +1,6 @@
 def minimum_buying_days(N, S, M):
     if  N < M :
-            return -1 
+        return -1 
     sunday = S//7
     total_food = S * M
     buying_day = S - sunday
