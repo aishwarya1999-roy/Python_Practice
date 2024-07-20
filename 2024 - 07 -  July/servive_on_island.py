@@ -1,6 +1,7 @@
 import math
 
 def minfood(N, S, M):
+    
     sun = 1
     food = math.ceil((M*S)/N)
     if food >= S-sun:
