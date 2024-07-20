@@ -4,7 +4,7 @@ def minimum_buying_days(N, S, M):
     if M > N:
         return -1
     min_buying_days = (total_food_required + N - 1) // N
-    if min_buying_days > S-sunday:
+    if min_buying_days >= S-sunday:
         return -1
     
     return min_buying_days
