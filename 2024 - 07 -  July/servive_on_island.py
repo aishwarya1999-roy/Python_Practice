@@ -5,7 +5,7 @@ def minfood(N, S, M):
     if M>N:
         return -1
     else:
-        food = math.celi((M*S)//N)
+        food = math.ceil((M*S)//N)
     return food
 
 N = 16 # max food you can buy each day
