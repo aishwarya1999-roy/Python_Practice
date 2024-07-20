@@ -2,10 +2,7 @@ import math
 
 def minfood(N, S, M):
     food = 0
-    if M>N:
-        return -1
-    else:
-        food = math.ceil((M*S)/N)
+    food = math.ceil((M*S)/N)
     if food >= S-1:
         return -1
     return food
