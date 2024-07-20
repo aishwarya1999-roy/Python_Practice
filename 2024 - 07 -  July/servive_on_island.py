@@ -8,7 +8,7 @@ def minfood(N, S, M):
         food = math.ceil((M*S)/N)
     return food
 
-N = 16 # max food you can buy each day
+N = 20 # max food you can buy each day
 S = 10 # days to servive
-M = 2 # unit of food each day to eat
+M = 30 # unit of food each day to eat
 print(minfood(N, S, M))
