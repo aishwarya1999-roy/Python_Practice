@@ -1,5 +1,5 @@
 def reverseWords(S):
-    S.reverse=True
+    d = reversed(S)
 
     return S
 
