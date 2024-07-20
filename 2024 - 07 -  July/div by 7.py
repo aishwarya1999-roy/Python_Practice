@@ -1,18 +1,22 @@
 def minimum_buying_days(N, S, M):
+    # Calculate total food required for S days
     total_food_required = S * M
-    sunday= S // 7
-    buying_day = S - sunday
-    min_buying_days = 0
-
-    if total_food_required % N ==0:
-        min_buying_days = total_food_required//N
-    else:
-        min_buying_days = total_food_required//N + 1 
+    # Calculate the number of Sundays
+    sundays = S // 7
+    # Calculate the number of available buying days
+    buying_day = S - sundays
     
-    if min_buying_days <= buying_day:
-        return min_buying_days
+    # Calculate minimum buying days required
+    if total_food_required % N == 0:
+        min_buying_days = total_food_required // N
     else:
+        min_buying_days = total_food_required // N + 1 
+    
+    # Check if the minimum buying days is within the available buying days
+    if min_buying_days > buying_day:
         return -1
+    else:
+        return min_buying_days
 
 N = 9
 S = 10
