@@ -9,9 +9,8 @@ def minimum_buying_days(N, S, M):
     print(min_buying_days)
     print(max_buying_days)
     print(weeks)
-    if weeks > 0:
-        if min_buying_days > max_buying_days:
-            return -1
+    if weeks > 0 and min_buying_days > max_buying_days:
+        return -1
     
     return min_buying_days
 
