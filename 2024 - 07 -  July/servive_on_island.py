@@ -3,8 +3,12 @@ import math
 def minfood(N, S, M):
     sunday = S//7
     food = math.ceil((M*S)/N)
-    
-    return food
+
+    if sunday<=0:
+        if food >= S-sunday:
+            return -1
+    else:
+        return food
 
 N = 2 # max food you can buy each day
 S = 5 # days to servive
