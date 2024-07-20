@@ -14,8 +14,8 @@ def minimum_buying_days(N, S, M):
     else:
         return -1
 
-N = 9
-S = 10
-M = 8
+N = 24
+S = 35
+M = 20
 
 print(minimum_buying_days(N, S, M))
