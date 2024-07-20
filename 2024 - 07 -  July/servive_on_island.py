@@ -17,7 +17,7 @@ def minimum_buying_days(N, S, M):
     min_buying_days = (total_food_required + N - 1) // N  # This is ceil(total_food_required / N)
     
     # Check if the minimum buying days is within the maximum buying days
-    if min_buying_days > max_buying_days:
+    if min_buying_days >= max_buying_days:
         return -1  # Impossible to survive since we can't buy enough food in available days
     
     return min_buying_days
