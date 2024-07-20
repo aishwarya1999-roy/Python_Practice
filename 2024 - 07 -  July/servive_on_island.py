@@ -5,7 +5,7 @@ def minimum_buying_days(N, S, M):
     max_buying_days = weeks * 6 + extra_days
     if M > N:
         return -1
-    min_buying_days = (total_food_required) / N
+    min_buying_days = (total_food_required + N - 1) / N
     print(min_buying_days)
     if min_buying_days > max_buying_days:
         return -1
@@ -13,8 +13,8 @@ def minimum_buying_days(N, S, M):
     return min_buying_days
 
 
-N = 9
-S = 10
-M = 8
+N = 2
+S = 5
+M = 2
 
 print(minimum_buying_days(N, S, M)) 
