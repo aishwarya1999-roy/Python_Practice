@@ -7,10 +7,10 @@ def minimum_buying_days(N, S, M):
         return -1
     min_buying_days = (total_food_required + N - 1) // N
     
-    if min_buying_days >= buying_day:
-        return -1
-    else:
+    if min_buying_days <= buying_day:
         return min_buying_days
+    else:
+        return -1
 
 # Example usage:
 N = 2  # Max food Geekina can buy each day
