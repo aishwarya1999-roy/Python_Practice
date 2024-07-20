@@ -3,7 +3,8 @@ def minimum_buying_days(N, S, M):
     sunday= S // 7
     buying_day = S - sunday
     min_buying_days = 0
-    if total_food_required%N ==0:
+
+    if total_food_required % N ==0:
         min_buying_days = total_food_required//N
     else:
         min_buying_days = total_food_required//N + 1 
