@@ -3,6 +3,7 @@ import math
 def minfood(N, S, M):
     weeks = S//7
     extra_days = S%7
+    max_buy_day = weeks * 6 + extra_days
     if M>N:
         return -1
     
