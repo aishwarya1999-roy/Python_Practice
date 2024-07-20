@@ -4,7 +4,7 @@ def minfood(N, S, M):
     sunday = S//7
     food = math.ceil((M*S)/N)
 
-    if sunday>=0:
+    if sunday>0:
         if food >= S-sunday:
             return -1
         else:
