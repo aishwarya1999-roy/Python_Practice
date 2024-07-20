@@ -5,7 +5,7 @@ def minimum_buying_days(N, S, M):
     if total_food_required%N ==0:
         min_buying_days = total_food_required/N
     else:
-        min_buying_days = total_food_required/N +1 
+        min_buying_days = total_food_required/N + 1 
     
     if min_buying_days <= buying_day:
         return min_buying_days
