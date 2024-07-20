@@ -1,3 +1,5 @@
+import math
+
 def minfood(N, S, M):
     food = 0
     if M>N:
