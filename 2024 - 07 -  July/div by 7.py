@@ -6,7 +6,6 @@ def minimum_buying_days(N, S, M):
         return -1
     if total_food%N == 0 and N == M and S > 6:
         food = -1
-
     elif total_food%N == 0:
         food = total_food//N
     else:
