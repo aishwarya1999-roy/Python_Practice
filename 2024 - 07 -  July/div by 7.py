@@ -1,6 +1,6 @@
 def minimum_buying_days(N, S, M):
     if N < M:
-            return -1
+        return -1
     if (N-M)*6 < M and S > 6:
         return -1
     if (S*M)%N == 0 and N == M and S > 6:
