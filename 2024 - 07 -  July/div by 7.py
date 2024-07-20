@@ -1,3 +1,3 @@
-S= 20
+S= 5
 sunday = S//7
 print(sunday)
