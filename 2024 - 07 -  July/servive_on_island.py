@@ -1,11 +1,7 @@
 import math
 
 def minfood(N, S, M):
-    sunday = 0
-    for i in range(1, S):
-        if i%7 == 0:
-            sunday+=1
-            
+    sunday = S//7
     food = math.ceil((M*S)/N)
     if food >= S-sunday:
         return -1
