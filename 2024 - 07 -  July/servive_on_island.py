@@ -1,8 +1,12 @@
-def island():
+def minfood(N, S, M):
+    food = 0
+    if M>N:
+        return -1
+    
 
+    return food
 
-    pass
-
-N = 5 # max food you can buy each day
-S = 30 # days to servive
-M = 3 # unit of food each day to eat
+N = 16 # max food you can buy each day
+S = 10 # days to servive
+M = 2 # unit of food each day to eat
+print(minfood(N, S, M))
