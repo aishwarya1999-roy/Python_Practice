@@ -2,7 +2,8 @@ def minfood(N, S, M):
     food = 0
     if M>N:
         return -1
-    food = (M*S)/N
+    else:
+        food = (M*S)/N
 
     return food
 
