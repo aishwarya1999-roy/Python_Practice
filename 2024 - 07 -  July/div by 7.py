@@ -13,8 +13,8 @@ def minimum_buying_days(N, S, M):
         return -1
 
 # Example usage:
-N = 2  # Max food Geekina can buy each day
-S = 5  # Number of days Geekina needs to survive
-M = 2  # Food Geekina needs each day
+N = 24  # Max food Geekina can buy each day
+S = 35  # Number of days Geekina needs to survive
+M = 20  # Food Geekina needs each day
 
 print(minimum_buying_days(N, S, M))  # Should return the minimum number of days needed to buy food or -1 if not possible
