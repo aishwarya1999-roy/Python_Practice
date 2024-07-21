@@ -4,7 +4,7 @@ def minCost(arr,n) :
     aa = []
     for i in range(n-1):
         addd = addd + arr[i+1]
-        aa.append(sum)
+        aa.append(addd)
 
     return sum(aa)
 
