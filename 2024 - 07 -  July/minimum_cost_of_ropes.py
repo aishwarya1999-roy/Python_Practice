@@ -1,7 +1,7 @@
 def minCost(arr,n) :
     arr.sort()
     for i in range(n):
-
+        print(i)
     return arr
 
 arr = [4, 3, 2, 6] # 2, 3, 4, 6
