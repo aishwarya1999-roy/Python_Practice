@@ -1,26 +1,17 @@
 import heapq
-
-def minCost(ropes):
-    # Create a min-heap from the list of ropes
-    heapq.heapify(ropes)
+def minCost(arr,n) :
+    heapq.heapify(arr)
     
     total_cost = 0
-    
-    # While there is more than one rope
-    while len(ropes) > 1:
-        # Extract the two smallest ropes
-        first = heapq.heappop(ropes)
-        second = heapq.heappop(ropes)
-        
-        # Calculate the cost of connecting them
+    while n > 1:
+        first = heapq.heappop(arr)
+        second = heapq.heappop(arr)
         cost = first + second
         total_cost += cost
-        
-        # Insert the new rope back into the heap
-        heapq.heappush(ropes, cost)
-    
+        heapq.heappush(arr, cost)
+
     return total_cost
 
-# Example usage
-ropes = [4, 3, 2, 6]
-print(minCost(ropes))  # Output: 29
+arr = [4, 3, 2, 6] # 2, 3, 4, 6
+N = 4
+print(minCost(arr,N))
