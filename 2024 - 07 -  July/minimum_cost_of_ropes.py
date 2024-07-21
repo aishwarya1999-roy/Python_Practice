@@ -1,9 +1,14 @@
 import heapq
 def minCost(arr,n) :
-    total_cost = 0
-    heapq.heapify(arr)
-    while n> 1:
-        fist = heapq.heappop(arr)
+    first = heapq.heappop(ropes)
+        second = heapq.heappop(ropes)
+        
+        # Calculate the cost of connecting them
+        cost = first + second
+        total_cost += cost
+        
+        # Insert the new rope back into the heap
+        heapq.heappush(ropes, cost)
     return fist
 
 arr = [4, 3, 2, 6] # 2, 3, 4, 6
