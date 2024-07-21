@@ -1,6 +1,6 @@
 def chocolate(arr,N,M):
     for i in range(len(arr)-2):
-        print(min(i,i+1,i+2))
+        print(min(arr[i],arr[i+1],arr[i+2]))
 
     return sorted(arr)
 
