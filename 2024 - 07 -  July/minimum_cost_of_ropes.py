@@ -2,7 +2,8 @@ import heapq
 def minCost(arr,n) :
     total_cost = 0
     heapq.heapify(arr)
-
+    while n> 1:
+        fist = heapq.heappop(arr)
     return arr
 
 arr = [4, 3, 2, 6] # 2, 3, 4, 6
