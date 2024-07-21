@@ -1,3 +1,4 @@
+import heapq
 def minCost(arr,n) :
     total_cost = 0
     heapq.heapify(arr)
