@@ -4,7 +4,7 @@ def chocolate(arr,N,M):
         mini = min(arr[i],arr[i+1],arr[i+2])
         maxi = max(arr[i],arr[i+1],arr[i+2])
         print("min :" , mini, end=" ")
-        print("max :" ,maxi)
+        print("max :" ,maxi, end=" ")
         print("max - min:" , maxi-mini)
     return arr
 
