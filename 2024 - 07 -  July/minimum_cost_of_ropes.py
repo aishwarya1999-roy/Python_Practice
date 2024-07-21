@@ -1,6 +1,6 @@
 def minCost(arr,n) :
     arr.sort()
-    sum = 0
+    sum = arr[0]
     for i in range(n):
         sum = sum + arr[i]
         print(sum)
