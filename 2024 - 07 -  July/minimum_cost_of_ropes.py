@@ -4,7 +4,7 @@ def minCost(arr,n) :
     heapq.heapify(arr)
     while n> 1:
         fist = heapq.heappop(arr)
-    return arr
+    return fist
 
 arr = [4, 3, 2, 6] # 2, 3, 4, 6
 N = 4
