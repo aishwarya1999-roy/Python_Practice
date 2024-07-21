@@ -5,7 +5,7 @@ def chocolate(arr,N,M):
     mini = float('inf')
     while j<N:
         diff = arr[j] - arr[i]
-        mini.append(diff)
+        mini = min(diff, mini)
         i+=1
         j+=1
     return min(mini)
