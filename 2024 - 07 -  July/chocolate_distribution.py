@@ -1,4 +1,4 @@
-def chocolate(arr,N,M)
+def chocolate(arr,N,M):
     return arr.sort
 
 arr = [3, 4, 1, 9, 56, 7, 9, 12]
