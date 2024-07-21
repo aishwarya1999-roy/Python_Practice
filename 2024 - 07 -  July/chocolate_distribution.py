@@ -4,7 +4,7 @@ def chocolate(arr,N,M):
     j = M-1
 
     while j<N:
-        diff = arr[i] - arr[j]
+        diff = arr[j] - arr[i]
         print(diff)
         i+=1
         j+=1
