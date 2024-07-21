@@ -4,7 +4,7 @@ def minCost(arr,n) :
     for i in range(n):
         sum = sum + arr[i]
         print(sum)
-    return sum
+    
 
 arr = [4, 3, 2, 6] # 2, 3, 4, 6
 N = 4
