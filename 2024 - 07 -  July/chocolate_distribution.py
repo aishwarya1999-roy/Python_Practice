@@ -2,9 +2,10 @@ def chocolate(arr,N,M):
     arr.sort()
     i = 0
     j = M-1
-    mini = 0
+    mini = []
     while j<N:
         diff = arr[j] - arr[i]
+        mini.append(diff)
         print(diff)
         i+=1
         j+=1
