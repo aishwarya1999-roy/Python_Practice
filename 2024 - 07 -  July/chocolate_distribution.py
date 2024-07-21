@@ -1,11 +1,12 @@
 def chocolate(arr,N,M):
     for i in range(N-2):
         arr.sort()
+        new_arr = []
         mini = min(arr[i],arr[i+1],arr[i+2])
         maxi = max(arr[i],arr[i+1],arr[i+2])
         print("min :" , mini, end=", ")
         print("max :" ,maxi, end=", ")
-        print("max - min:" , maxi-mini)
+        new_arr.append(mini-maxi)
         print(min(maxi-mini))
     return arr
 
