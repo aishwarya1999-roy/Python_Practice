@@ -8,8 +8,6 @@ def minCost(arr,n) :
         second = heapq.heappop(arr)
         cost = first + second
         total_cost += cost
-        
-        # Insert the new rope back into the heap
         heapq.heappush(arr, cost)
 
     return first
