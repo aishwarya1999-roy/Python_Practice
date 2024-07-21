@@ -8,7 +8,6 @@ def chocolate(arr,N,M):
         mini.append(diff)
         i+=1
         j+=1
-        
     return min(mini)
 
 arr = [3, 4, 1, 9, 56, 7, 9, 12] #[1, 3, 4, 7, 9, 9, 12, 56]
