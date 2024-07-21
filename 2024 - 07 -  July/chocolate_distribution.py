@@ -1,5 +1,5 @@
 def chocolate(arr,N,M):
-    for i in range(len(arr)-2):
+    for i in range(N-2):
         arr.sort()
         mini = min(arr[i],arr[i+1],arr[i+2],)
         maxi = max(arr[i],arr[i+1],arr[i+2])
