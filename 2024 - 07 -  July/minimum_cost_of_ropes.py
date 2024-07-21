@@ -1,3 +1,5 @@
 def minCost(arr,n) :
 
-a = [4, 3, 2, 6]
+arr = [4, 3, 2, 6]
+N = 4
+print(minCost(arr,N))
