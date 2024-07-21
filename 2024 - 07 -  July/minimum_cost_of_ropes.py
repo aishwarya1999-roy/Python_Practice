@@ -1,12 +1,7 @@
 def minCost(arr,n) :
-    arr.sort()
-    addd = arr[0]
-    aa = []
-    for i in range(n-1):
-        addd = addd + arr[i+1]
-        aa.append(addd)
+    total_cost = 0
 
-    return sum(aa)
+    return total_cost
 
 arr = [4, 3, 2, 6] # 2, 3, 4, 6
 N = 4
