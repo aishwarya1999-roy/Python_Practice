@@ -3,13 +3,13 @@ def minCost(arr,n) :
     heapq.heapify(arr)
     
     total_cost = 0
-    while N > 1:
+    while n > 1:
         first = heapq.heappop(arr)
         second = heapq.heappop(arr)
         cost = first + second
         total_cost += cost
         heapq.heappush(arr, cost)
-        N=N-1
+        n=n-1
 
     return total_cost
 
