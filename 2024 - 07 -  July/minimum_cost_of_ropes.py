@@ -6,6 +6,7 @@ def minCost(arr,n) :
     while n > 1:
         first = heapq.heappop(arr)
         second = heapq.heappop(arr)
+        print(first, second)
         cost = first + second
         total_cost += cost
         heapq.heappush(arr, cost)
