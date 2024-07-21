@@ -11,7 +11,7 @@ def minCost(arr,n) :
         heapq.heappush(arr, cost)
         n=n-1
 
-    return first
+    return first,second
 
 arr = [4, 3, 2, 6] # 2, 3, 4, 6
 N = 4
