@@ -3,7 +3,7 @@ def chocolate(arr,N,M):
         arr.sort()
         mini = min(arr[i],arr[i+1],arr[i+2])
         maxi = max(arr[i],arr[i+1],arr[i+2])
-        print("min :" , min(arr[i],arr[i+1],arr[i+2]), end=" ")
+        print("min :" , mini, end=" ")
         print("max :" ,maxi)
     return arr
 
