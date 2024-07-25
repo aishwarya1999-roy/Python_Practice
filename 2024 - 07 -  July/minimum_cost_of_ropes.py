@@ -1,6 +1,6 @@
 import heapq
 def minCost(arr,n) :
-    heapq.heapify(arr)
+    heapq.heapify(arr) # sorting 
     
     total_cost = 0
     while n > 1:
