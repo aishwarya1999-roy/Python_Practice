@@ -5,6 +5,6 @@ m = 10
 n= len(A)
 for i in range(0, n-1):
     for j in range(0, n-1):
-        if A[i]+A[j] != m:
-            print(i, j, "sum = ", i+j)
+        if A[i]+A[i] != m:
+            print(A[i], jA[i], "sum = ", i+j)
 
