@@ -6,5 +6,5 @@ n= len(A)
 for i in range(0, n-1):
     for j in range(0, n-1):
         if i+j != m:
-            print(i, j, i+j)
+            print(i, j, "sum = ", i+j)
 
