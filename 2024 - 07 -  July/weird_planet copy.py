@@ -19,9 +19,9 @@ def process_customer_requests(H, supervisor_data, customer_requests):
 # Example usage:
 string1 = input().split()
 
-H = string1[0]
-S = string1[1]
-R = string1[2]
+H = int(string1[0])
+S = int(string1[1])
+R = int(string1[2])
 string2 = [input() for _ in range(S)]
 supervisor_data = [tuple(map(int, s.split())) for s in string2]
 
