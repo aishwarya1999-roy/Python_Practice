@@ -1,7 +1,8 @@
 def process_customer_requests(H, supervisor_data, customer_requests):
     on_duty_heights = [-1] * (H + 1)
     Hi = max(supervisor_data, key=lambda x: x[0])[0]
-    print(max_height)
+    B =  min(supervisor_data, key=lambda x: x[1])[1]
+
     results = []
     
 
