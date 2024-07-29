@@ -18,7 +18,7 @@ def process_customer_requests(H, supervisor_data, customer_requests):
 
 # Example usage:
 H = 10
-S = 2
+S = 3
 R = 5
 string2 = [input() for _ in range(S)]
 print(string2)
