@@ -17,6 +17,7 @@ def process_customer_requests(H, supervisor_data, customer_requests):
     return results
 
 # Example usage:
+string1 = input()
 H = 10
 S = 2
 R = 2
