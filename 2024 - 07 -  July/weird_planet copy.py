@@ -24,7 +24,7 @@ def process_customer_requests(H, S, R, supervisor_data, customer_requests):
 H = 10
 S = 1
 R = 5
-supervisor_data = [(50, 2, 6)]
+supervisors = [(50, 2, 5), (40, 3, 6), (60, 2, 7)]
 customer_requests = [(10, 1), (10, 2), (50, 5), (51, 6), (100, 10)]
 
 results = process_customer_requests(H, S, R, supervisor_data, customer_requests)
