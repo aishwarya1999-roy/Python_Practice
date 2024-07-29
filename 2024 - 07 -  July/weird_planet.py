@@ -8,10 +8,10 @@ def process_customer_requests(H, supervisor_data, customer_requests):
                 on_duty_heights[hour] = max(on_duty_heights[hour], height)
     
     results = []
-    for customer in customers:
+    for customer in customer_requests:
         customer_height, visit_timing = customer
         
-        if visit_timing > Hourperday:
+        if visit_timing > H:
             results.append("NO")
             continue
         
