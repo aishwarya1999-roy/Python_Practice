@@ -2,7 +2,7 @@ def process_customer_requests(H, supervisor_data, customer_requests):
     on_duty_heights = [-1] * (H + 1)
     height, start, end = supervisor_data
     hi = list(height)
-    print(height)
+    print(hi)
     results = []
     
 
