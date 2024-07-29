@@ -21,7 +21,7 @@ H = 10
 S = 2
 R = 5
 string2 = [input() for _ in range(S)]
-supere  = [tuple(map(int, s.split())) for s in string2]
+supervisor_data  = [tuple(map(int, s.split())) for s in string2]
 print(supere)
 
 supervisor_data = [(50, 2, 5), (40, 3, 6), (60, 2, 7)]
