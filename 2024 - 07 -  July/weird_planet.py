@@ -2,7 +2,7 @@ def process_customer_requests(H, supervisor_data, customer_requests):
     on_duty_heights = [-1] * (H + 1)
     for height, start, end in supervisor_data:
        max_height = max(height)
-    
+    print()
     results = []
     for cust_height, visit_time in customer_requests:
         if visit_time > H:
@@ -17,17 +17,11 @@ def process_customer_requests(H, supervisor_data, customer_requests):
     return results
 
 # Example usage:
-string1 = input().split()
+Hourperday = 12
+supervisors = [(50, 2, 5), (40, 3, 6), (60, 2, 7)]  # [(supervisor_height, supervisor_shift_start, supervisor_shift_end)]
+customers = [(10, 1), (20, 2), (41, 4), (55, 5), (100, 8)]  # [(customer_height, visit_timing)]
 
-H = int(string1[0])
-S = int(string1[1])
-R = int(string1[2])
-string2 = [input() for _ in range(S)]
-supervisor_data = [tuple(map(int, s.split())) for s in string2]
+results = process_customer_requests(Hourperday, supervisors, customers)
 
-string3 = [input() for _ in range(R)]
-customer_requests  = [tuple(map(int, s.split())) for s in string3]
-
-results = process_customer_requests(H, supervisor_data, customer_requests)
 for result in results:
     print(result)
