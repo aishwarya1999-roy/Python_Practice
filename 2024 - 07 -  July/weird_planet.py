@@ -1,11 +1,7 @@
 def process_customer_requests(H, supervisor_data, customer_requests):
     on_duty_heights = [-1] * (H + 1)
     for height, start, end in supervisor_data:
-        for hour in range(start, end + 1):
-            if on_duty_heights[hour] == -1:
-                on_duty_heights[hour] = height
-            else:
-                on_duty_heights[hour] = max(on_duty_heights[hour], height)
+       max_height = max(height)
     
     results = []
     for cust_height, visit_time in customer_requests:
