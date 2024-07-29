@@ -28,5 +28,5 @@ string3 = [input() for _ in range(R)]
 customer_requests  = [tuple(map(int, s.split())) for s in string3]
 
 results = process_customer_requests(H, supervisor_data, customer_requests)
-"""for result in results:
-    print(result)"""
+for result in results:
+    print(result)
