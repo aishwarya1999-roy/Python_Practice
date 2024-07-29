@@ -17,8 +17,8 @@ def process_customer_requests(H, supervisor_data, customer_requests):
 
 # Example usage:
 Hourperday = 12
-supervisors = [(50, 2, 5), (40, 3, 6), (60, 2, 7)]  # [(supervisor_height, supervisor_shift_start, supervisor_shift_end)]
-customers = [(10, 1), (20, 2), (41, 4), (55, 5), (100, 8)]  # [(customer_height, visit_timing)]
+supervisors = [(50, 2, 5), (40, 3, 6), (60, 2, 7)]
+customers = [(10, 1), (20, 2), (41, 4), (55, 5), (100, 8)]
 
 results = process_customer_requests(Hourperday, supervisors, customers)
 
