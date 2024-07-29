@@ -22,6 +22,7 @@ S = 2
 R = 5
 string2 = [input() for _ in range(S)]
 print(string2)
+
 supervisor_data = [(50, 2, 5), (40, 3, 6), (60, 2, 7)]
 customer_requests = [(10, 1), (10, 2), (50, 5), (51, 6), (100, 10)]
 
