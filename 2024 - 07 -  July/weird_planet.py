@@ -1,14 +1,19 @@
 def process_customer_requests(H, supervisor_data, customer_requests):
-    Hi = max(supervisor_data, key=lambda x: x[0])[0]
-    B = min(supervisor_data, key=lambda x: x[1])[1]
-    E = max(supervisor_data, key=lambda x: x[2])[2]
+    on_duty_heights = [-1] * (H + 1)
+    for height, start, end in supervisor_data:
+        for hour in range(start, end + 1):
+            if on_duty_heights[hour] == -1:
+                on_duty_heights[hour] = height
+            else:
+                on_duty_heights[hour] = max(on_duty_heights[hour], height)
+    
     results = []
     for cust_height, visit_time in customer_requests:
         if visit_time > H:
             results.append("NO")
             continue
 
-        if cust_height> Hi or visit_time<B or visit_time>E:
+        if on_duty_heights[visit_time] == -1 or cust_height > on_duty_heights[visit_time]:
             results.append("YES")
         else:
             results.append("NO")
@@ -16,11 +21,17 @@ def process_customer_requests(H, supervisor_data, customer_requests):
     return results
 
 # Example usage:
-Hourperday = 12
-supervisors = [(50, 2, 5), (40, 3, 6), (60, 2, 7)]
-customers = [(10, 1), (20, 2), (41, 4), (55, 5), (100, 8)]
+string1 = input().split()
 
-results = process_customer_requests(Hourperday, supervisors, customers)
+H = int(string1[0])
+S = int(string1[1])
+R = int(string1[2])
+string2 = [input() for _ in range(S)]
+supervisor_data = [tuple(map(int, s.split())) for s in string2]
 
+string3 = [input() for _ in range(R)]
+customer_requests  = [tuple(map(int, s.split())) for s in string3]
+
+results = process_customer_requests(H, supervisor_data, customer_requests)
 for result in results:
     print(result)
