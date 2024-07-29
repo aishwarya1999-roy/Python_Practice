@@ -4,6 +4,8 @@ def process_customer_requests(H, supervisor_data, customer_requests):
        max_height = max(height)
     print(max_height)
     results = []
+
+    
     for cust_height, visit_time in customer_requests:
         if visit_time > H:
             results.append("NO")
