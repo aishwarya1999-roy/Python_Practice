@@ -18,9 +18,10 @@ def process_customer_requests(H, supervisor_data, customer_requests):
 
 # Example usage:
 H = 10
-S = 3
+S = 2
 R = 5
 string2 = [input() for _ in range(S)]
+supere  = [tuple(map(int, s.split())) for s in string2]
 print(string2)
 
 supervisor_data = [(50, 2, 5), (40, 3, 6), (60, 2, 7)]
