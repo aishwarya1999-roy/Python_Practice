@@ -1,8 +1,14 @@
 def process_customer_requests(Hourperday, supervisors, customers):
     results = []
+    on_duty_heights = [-1] * (Hourperday + 1)
+    for supervisor in supervisors:
+        supervisor_height, supervisor_shift_start, supervisor_shift_end = supervisor
+        for hour in range(supervisor_shift_start, supervisor_shift_end + 1):
+            if on_duty_heights[hour] == -1:
+                on_duty_heights[hour] = supervisor_height
+            else:
+                on_duty_heights[hour] = max(on_duty_heights[hour], supervisor_height)
 
-
-    for customer in customers:
         
     
     return results
