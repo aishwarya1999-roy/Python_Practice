@@ -10,7 +10,7 @@ def process_customer_requests(H, supervisor_data, customer_requests):
             results.append("NO")
             continue
 
-        if on_duty_heights[visit_time] == -1 or cust_height > on_duty_heights[visit_time]:
+        if cust_height> Hi or visit_time<B or visit_time>E:
             results.append("YES")
         else:
             results.append("NO")
