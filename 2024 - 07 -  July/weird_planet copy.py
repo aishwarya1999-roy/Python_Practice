@@ -9,6 +9,10 @@ def process_customer_requests(H, supervisor_data, customer_requests):
     
     results = []
     for cust_height, visit_time in customer_requests:
+        if visit_time > H:
+            results.append("NO")
+            continue
+
         if on_duty_heights[visit_time] == -1 or cust_height > on_duty_heights[visit_time]:
             results.append("YES")
         else:
