@@ -1,9 +1,6 @@
 def process_customer_requests(H, supervisor_data, customer_requests):
     on_duty_heights = [-1] * (H + 1)
-    height, start, end = supervisor_data
-    hi = list(height)
-    start = list(start)
-    end  = list(end)
+    max_height = max(lis1, key=lambda x: x[0])[0]
     print(hi)
     results = []
     
