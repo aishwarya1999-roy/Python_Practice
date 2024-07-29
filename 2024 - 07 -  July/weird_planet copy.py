@@ -6,7 +6,7 @@ def process_customer_requests(H, supervisor_data, customer_requests):
                 on_duty_heights[hour] = height
             else:
                 on_duty_heights[hour] = max(on_duty_heights[hour], height)
-    print(on_duty_heights)
+    
     results = []
     for cust_height, visit_time in customer_requests:
         if on_duty_heights[visit_time] == -1 or cust_height > on_duty_heights[visit_time]:
