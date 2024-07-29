@@ -23,7 +23,7 @@ R = 2
 string2 = [input() for _ in range(S)]
 supervisor_data = [tuple(map(int, s.split())) for s in string2]
 string3 = [input() for _ in range(R)]
-print(string)
+print(string3)
 customer_requests = [(10, 1), (10, 2), (50, 5), (51, 6), (100, 10)]
 
 results = process_customer_requests(H, supervisor_data, customer_requests)
