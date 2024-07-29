@@ -1,8 +1,5 @@
 def process_customer_requests(H, supervisor_data, customer_requests):
-    # Initialize an array to store the height of the supervisor on duty at each hour
     on_duty_heights = [-1] * (H + 1)
-
-    # Process each supervisor's schedule
     for height, start, end in supervisor_data:
         for hour in range(start, end + 1):
             if on_duty_heights[hour] == -1:
@@ -10,7 +7,6 @@ def process_customer_requests(H, supervisor_data, customer_requests):
             else:
                 on_duty_heights[hour] = max(on_duty_heights[hour], height)
 
-    # Process each customer request
     results = []
     for cust_height, visit_time in customer_requests:
         if on_duty_heights[visit_time] == -1 or cust_height > on_duty_heights[visit_time]:
