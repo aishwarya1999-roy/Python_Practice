@@ -1,4 +1,4 @@
-# factorial recursion
+# factorial - recursion
 def fact(N):
     print("N : ", N)
     if N == 0:
