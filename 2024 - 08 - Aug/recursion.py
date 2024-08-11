@@ -10,7 +10,7 @@ print(fact(N))"""
 def power_function(num, power):
     if num == 0:
         return 1
-    return num * power(num-1)
+    return num * power
 num = int(input("Number : "))
 power = int(input("power : "))
 print(power_function(num, power))
