@@ -8,7 +8,7 @@ print(fact(N))"""
 
 #power - recursion
 def power_function(num, power):
-    if power == 1:
+    if power == 0:
         return 1
     return num * (num * (power-1))
 num = int(input("Number : "))
