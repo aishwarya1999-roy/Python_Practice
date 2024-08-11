@@ -13,4 +13,4 @@ def power(N):
     return N * power(N-1)
 num = int(input("N : "))
 power = int(input("power : "))
-print(power(num))
+print(power(num, power))
