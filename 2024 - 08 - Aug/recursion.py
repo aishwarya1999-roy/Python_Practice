@@ -1,4 +1,5 @@
 def fact(N):
+    print(N)
     if N == 0:
         return N
     return N * fact(N-1)
