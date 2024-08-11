@@ -7,3 +7,4 @@ N = int(input("N : "))
 print(fact(N))"""
 
 N = int(input("N : "))
+print(N)
