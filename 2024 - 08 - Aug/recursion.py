@@ -38,7 +38,7 @@ print(counting(num))
 
 n = int(input())
 print(fibonacci(n))"""
-    
+
 #reaching home - level 0 recursion
 def power_function(dest, sour):
     print("Source : ", sour, "Destination : ", dest)
