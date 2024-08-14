@@ -53,15 +53,14 @@ print(power_function(dest, sour))"""
 
 
 #stair climbing
-def power_function(dest, sour,count):
+def power_function(dest, sour):
     
-    print("Source : ", sour, "Destination : ", dest, "Count :", count)
+    print("Source : ", sour, "Destination : ", dest)
     if sour == dest:
         return "Reached Destination"
     count+=1
-    return power_function(dest, sour+2, count)
+    return power_function(dest, sour+2)
 
 dest = int(input("Destination : "))
 sour = 0
-count = 0
-print(power_function(dest, sour,count))
+print(power_function(dest, sour))
