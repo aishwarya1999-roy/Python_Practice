@@ -56,10 +56,10 @@ print(power_function(dest, sour))"""
 def power_function(dest, sour):
     print("Source : ", sour, "Destination : ", dest)
     if sour == dest:
-        return "Reached Home"
+        return "Reached Destination"
     
     return power_function(dest, sour+1)
 
 dest = int(input("Destination : "))
-sour = int(input("Source : "))
+sour = 0
 print(power_function(dest, sour))
