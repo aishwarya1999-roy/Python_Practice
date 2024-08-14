@@ -58,9 +58,9 @@ def power_function(dest, sour):
     print("Source : ", sour, "Destination : ", dest)
     if sour == dest:
         return "Reached Destination"
-    power_function(dest, sour+2)
+    
     count+=1
-    return count
+    return power_function(dest, sour+2)
 
 dest = int(input("Destination : "))
 sour = 0
