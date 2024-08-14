@@ -40,6 +40,19 @@ n = int(input())
 print(fibonacci(n))"""
 
 #reaching home - level 0 recursion
+"""def power_function(dest, sour):
+    print("Source : ", sour, "Destination : ", dest)
+    if sour == dest:
+        return "Reached Home"
+    
+    return power_function(dest, sour+1)
+
+dest = int(input("Destination : "))
+sour = int(input("Source : "))
+print(power_function(dest, sour))"""
+
+
+#stair climbing
 def power_function(dest, sour):
     print("Source : ", sour, "Destination : ", dest)
     if sour == dest:
@@ -50,7 +63,3 @@ def power_function(dest, sour):
 dest = int(input("Destination : "))
 sour = int(input("Source : "))
 print(power_function(dest, sour))
-
-
-
-
