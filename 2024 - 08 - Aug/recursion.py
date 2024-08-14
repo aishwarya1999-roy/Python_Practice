@@ -60,6 +60,7 @@ def power_function(dest, sour):
         return "Reached Destination"
     
     count+=1
+    print(count)
     return power_function(dest, sour+2)
 
 dest = int(input("Destination : "))
