@@ -71,9 +71,6 @@ def power_function(digits,arr):
     dig = dig%10
     digits=digits/10
     print(arr[digits])
-
-    
-
 arr = ['Zero', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine']
 digits = int(input("Digits : "))
 print(power_function(digits, arr))
