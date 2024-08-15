@@ -76,4 +76,4 @@ def power_function(digits):
 
 arr = ['Zero', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine']
 digits = int(input("Digits : "))
-print(power_function(digits))
+print(power_function(digits, arr))
