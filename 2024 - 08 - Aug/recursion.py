@@ -65,12 +65,13 @@ print(power_function(dest, sour))"""
 dest = int(input("Destination : "))
 print(power_function(dest))"""
 
-def power_function(digits,arr):
+def say_digit(digits,arr):
     if digits == 0:
         return 
     dig = dig%10
     digits=digits/10
     print(arr[digits])
+
 arr = ['Zero', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine']
 digits = int(input("Digits : "))
 print(power_function(digits, arr))
