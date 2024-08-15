@@ -59,7 +59,6 @@ def power_function(dest):
         return 0
     if dest == 0:
         return 1
-        
     ans = power_function(dest-1)+ power_function(dest-2)
     return ans
 
