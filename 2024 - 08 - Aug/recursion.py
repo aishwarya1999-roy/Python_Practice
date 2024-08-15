@@ -55,11 +55,13 @@ print(power_function(dest, sour))"""
 #stair climbing
 def power_function(dest):
     print("Destination : ", dest)
+    #base case
     if dest<0:
         return 0
     if dest == 0:
         return 1
         
+    ans = power_function(dest-1)+ power_function(dest-2)
     return power_function(dest-1) + power_function(dest-2)
 
 dest = int(input("Destination : "))
