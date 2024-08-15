@@ -66,7 +66,14 @@ dest = int(input("Destination : "))
 print(power_function(dest))"""
 
 def power_function(digits):
+    if digits == 0:
+        return 0
+    dig = dig%10
+    digits=digits/10
+
 
     return digits
+
+arr = ['Zero', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine']
 digits = int(input("Digits : "))
 print(power_function(digits))
