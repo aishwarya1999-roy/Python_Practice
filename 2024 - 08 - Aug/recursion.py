@@ -68,7 +68,7 @@ print(power_function(dest))"""
 def say_digit(digits,arr):
     if digits == 0:
         return 
-    dig = dig%10
+    dig = digits%10
     digits=digits/10
     print(arr[digits])
     say_digit(digits, arr)
