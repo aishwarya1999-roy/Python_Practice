@@ -65,8 +65,8 @@ print(power_function(dest, sour))"""
 dest = int(input("Destination : "))
 print(power_function(dest))"""
 
-def power_function(dest):
+def power_function(digits):
 
 
-value = int(input("Digits : "))
-print(power_function(dest))
+digits = int(input("Digits : "))
+print(power_function(digits))
