@@ -58,7 +58,7 @@ def power_function(dest):
     if dest<0:
         return 0
     if dest == 0:
-        return 0
+        return 1
         
     return power_function(dest-1) + power_function(dest-2)
 
