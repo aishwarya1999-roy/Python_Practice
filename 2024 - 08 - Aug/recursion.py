@@ -68,5 +68,5 @@ print(power_function(dest))"""
 def power_function(dest):
 
 
-value = int(input("Value : "))
+value = int(input("Digits : "))
 print(power_function(dest))
