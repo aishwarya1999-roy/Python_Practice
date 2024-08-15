@@ -65,7 +65,7 @@ print(power_function(dest, sour))"""
 dest = int(input("Destination : "))
 print(power_function(dest))"""
 
-def power_function(digits):
+def power_function(digits,arr):
     if digits == 0:
         return 0
     dig = dig%10
