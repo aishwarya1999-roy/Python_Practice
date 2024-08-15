@@ -70,7 +70,7 @@ def say_digit(digits,arr):
         return 
     dig = digits%10
     digits=digits//10
-    print(arr[digits])
+    print(arr[dig])
     say_digit(digits, arr)
 
 
