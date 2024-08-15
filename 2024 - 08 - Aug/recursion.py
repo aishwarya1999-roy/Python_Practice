@@ -70,9 +70,9 @@ def say_digit(digits,arr):
         return 
     dig = digits%10
     digits=digits//10
-    print(arr[dig], end=" ")
+    
     say_digit(digits, arr)
-
+    print(arr[dig], end=" ")
 
 arr = ['Zero', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine']
 digits = int(input("Digits : "))
