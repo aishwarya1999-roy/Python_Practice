@@ -70,7 +70,7 @@ def power_function(digits,arr):
         return 0
     dig = dig%10
     digits=digits/10
-
+    print(arr[digits])
 
     return digits
 
