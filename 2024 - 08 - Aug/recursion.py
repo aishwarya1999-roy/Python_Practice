@@ -67,6 +67,6 @@ print(power_function(dest))"""
 
 def power_function(digits):
 
-
+    return
 digits = int(input("Digits : "))
 print(power_function(digits))
