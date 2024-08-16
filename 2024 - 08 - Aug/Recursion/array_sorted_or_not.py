@@ -1,6 +1,6 @@
 #array is sorted or not
 def sorted_or_not(i,arr):
-    if i>len(arr):
+    if i>=len(arr):
         return 
     if arr[i]<arr[i+1]:
         print("sorted")
