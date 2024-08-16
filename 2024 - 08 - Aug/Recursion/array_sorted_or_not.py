@@ -10,4 +10,8 @@ def sorted_or_not(arr,n):
         return ans
 arr = [6,3,10,7,8]
 n = len(arr)
-print(sorted_or_not(arr,n))
+ans = sorted_or_not(arr,n)
+if ans is True:
+    print("Array is sorted")
+else:
+    print("Array is not sorted")
