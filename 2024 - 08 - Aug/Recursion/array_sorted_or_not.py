@@ -8,7 +8,7 @@ def sorted_or_not(arr,n):
     else:
         ans = sorted_or_not(arr[1:],n-1)
         return ans
-arr = [6,3,10,7,8]
+arr = [1,3,6,7,8]
 n = len(arr)
 ans = sorted_or_not(arr,n)
 if ans is True:
