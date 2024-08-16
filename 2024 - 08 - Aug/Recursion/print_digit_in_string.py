@@ -8,5 +8,5 @@ def say_digit(digits,arr):
     print(arr[dig], end=" ")
 
 arr = ['Zero', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine']
-digits = int(input("Digits : "))
-say_digit(digits, arr)
+digits = int(input("Digits : ")) #Digits : 456
+say_digit(digits, arr) #four five six 
