@@ -2,7 +2,7 @@
 def sorted_or_not(i,arr):
     
     if len(arr)<=1:
-        return 
+        return True
     if arr[i]>arr[i-1]:
         return True
     sorted_or_not(i+1,arr)
