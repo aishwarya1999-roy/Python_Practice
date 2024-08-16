@@ -4,6 +4,6 @@ def sorted_or_not(arr):
         return True
     """if arr[i]>arr[i-1]:
         return True"""
-    sorted_or_not(arr)
+    return sorted_or_not(arr)
 arr = [1,3,5,7,8]
 print(sorted_or_not(arr))
