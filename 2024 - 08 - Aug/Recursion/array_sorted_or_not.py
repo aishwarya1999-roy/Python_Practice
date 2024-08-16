@@ -6,6 +6,6 @@ def sorted_or_not(i,arr):
         print("sorted")
     return sorted_or_not(i+1,arr)
 
-arr = [4,5,7,8,3]
+arr = [3,4,5,7,8]
 i = 0
 print(sorted_or_not(i, arr))
