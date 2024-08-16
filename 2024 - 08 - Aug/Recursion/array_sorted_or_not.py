@@ -9,4 +9,4 @@ def sorted_or_not(arr,n):
     return sorted_or_not(arr)
 arr = [1,3,5,7,8]
 n = len(arr)
-print(sorted_or_not(arr))
+print(sorted_or_not(arr,n))
