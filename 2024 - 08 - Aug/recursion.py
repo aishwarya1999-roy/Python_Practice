@@ -2,7 +2,7 @@
 def counting(num):
     if num == 0:
         return 0
-    print(num)
+    print(num, end=" ")
     return counting(num-1)
     
 num = int(input("Number : "))
