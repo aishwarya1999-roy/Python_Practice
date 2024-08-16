@@ -5,7 +5,7 @@ def sorted_or_not(i,arr):
         return 
     if arr[i]>arr[i-1]:
         return True
-    return sorted_or_not(i+1,arr)
+    sorted_or_not(i+1,arr)
 arr = [3,1,5,7,8]
 i = 0
 print(sorted_or_not(i, arr))
