@@ -8,4 +8,4 @@ def sorted_or_not(i,arr):
 
 arr = [3,4,5,7,8]
 i = 0
-print(sorted_or_not(i, arr))
+sorted_or_not(i, arr)
