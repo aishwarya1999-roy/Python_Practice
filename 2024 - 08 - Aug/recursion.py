@@ -1,4 +1,4 @@
-#counting - recursion
+#print counting - recursion
 def counting(num):
     if num == 0:
         return 0
