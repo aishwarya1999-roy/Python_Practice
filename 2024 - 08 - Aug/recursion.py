@@ -40,32 +40,33 @@ n = int(input())
 print(fibonacci(n))"""
 
 #reaching home - level 0 recursion
-"""def power_function(dest, sour):
+"""def reach_home(dest, sour):
     print("Source : ", sour, "Destination : ", dest)
     if sour == dest:
         return "Reached Home"
     
-    return power_function(dest, sour+1)
+    return reach_home(dest, sour+1)
 
 dest = int(input("Destination : "))
 sour = int(input("Source : "))
-print(power_function(dest, sour))"""
+print(reach_home(dest, sour))"""
 
 
 #stair climbing
-"""def power_function(dest):
+"""def stair(dest):
     print("position : ", dest)
     #base case
     if dest<0:
         return 0
     if dest == 0:
         return 1
-    return power_function(dest-1) + power_function(dest-2)
-
+    return stair(dest-1) + stair(dest-2)
 dest = int(input("Destination : "))
-print(power_function(dest))"""
+print(stair(dest))"""
 
-def say_digit(digits,arr):
+
+#print digit in string
+"""def say_digit(digits,arr):
     if digits == 0:
         return 
     dig = digits%10
@@ -75,4 +76,6 @@ def say_digit(digits,arr):
 
 arr = ['Zero', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine']
 digits = int(input("Digits : "))
-say_digit(digits, arr)
+say_digit(digits, arr)"""
+
+
