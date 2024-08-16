@@ -1,7 +1,7 @@
 #print counting - recursion
 def counting(num):
     if num == 0:
-        return 0
+        return 
     print(num, end=" ")
     return counting(num-1)
     
