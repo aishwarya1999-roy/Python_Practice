@@ -78,4 +78,5 @@ arr = ['Zero', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', '
 digits = int(input("Digits : "))
 say_digit(digits, arr)"""
 
+#array is sorted or not
 
