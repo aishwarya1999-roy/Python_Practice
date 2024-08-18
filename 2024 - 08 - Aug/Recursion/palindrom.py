@@ -5,9 +5,6 @@ def rev(ss, i, h):
     aa[i],aa[h] = aa[h],aa[i]
     new_str = "".join(aa)
     print(new_str)
-
-    if new_str == ss:
-        return True
     return rev(ss, i+1, h-1)
 
 ss = "abaa"
