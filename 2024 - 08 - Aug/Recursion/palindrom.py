@@ -9,7 +9,7 @@ def rev(ss, i, h):
 
 ss = "abaa"
 ans = (rev(ss,0,len(ss)-1))
-if ans is True:
+if ans==ss:
     print("Pallindrom")
 else:
     print("Not Pallindrom")
