@@ -5,5 +5,4 @@ def rev(ss):
 ss = "abcdef"
 i = 0
 h = len(ss)
-print(h)
-print(rev(ss))
+print(rev(ss,i,h))
