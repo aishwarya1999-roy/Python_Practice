@@ -30,5 +30,7 @@
 # else:
 #     print("Not Pallindrom")
 ss = "abbaa"
+i = 0
+h = len(ss)-1
 if str[i]!=str[h]:
     print("equal")
