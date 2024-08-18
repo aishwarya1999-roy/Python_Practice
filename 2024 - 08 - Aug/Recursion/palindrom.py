@@ -9,4 +9,8 @@ def rev(ss, i, h):
     return rev("".join(aa), i+1, h-1)
 
 ss = "abcdef"
-print(rev(ss,0,len(ss)-1))
+ans = (rev(ss,0,len(ss)-1))
+if ans is True:
+    print("Pallindrom")
+else:
+    print("Not Pallindrom")
