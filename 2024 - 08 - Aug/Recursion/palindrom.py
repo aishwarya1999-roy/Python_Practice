@@ -15,9 +15,10 @@
 def rev(ss, i, h):
     if i>h:
         return
-    aa = list(ss)
-    aa[i],aa[h] = aa[h],aa[i]
-    return rev("".join(aa), i+1, h-1)
+    if str[i]!=str[h]:
+        return False
+    else:
+        return rev("".join(aa), i+1, h-1)
 
 ss = "abbaa"
 ans = (rev(ss,0,len(ss)-1))
