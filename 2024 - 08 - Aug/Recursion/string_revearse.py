@@ -1,4 +1,4 @@
-def rev():
+def rev(ss):
 
     pass
 
