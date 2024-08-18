@@ -14,7 +14,7 @@
 
 def rev(ss, i, h):
     if i>h:
-        return
+        return True
     if str[i]!=str[h]:
         return False
     else:
