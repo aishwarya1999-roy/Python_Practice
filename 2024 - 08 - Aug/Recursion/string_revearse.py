@@ -3,7 +3,7 @@ def rev(ss, i, h):
         return
     aa = list(ss)
     aa[i],aa[h] = aa[h],aa[i]
-    return rev(ss, i, h)
+    return rev(ss, i+1, h-1)
 
 ss = "abcdef"
 i = 0
