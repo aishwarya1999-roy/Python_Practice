@@ -6,7 +6,7 @@ def rev(ss, i, h):
     else:
         return rev(ss, i+1, h-1)
 
-ss = "abcab"
+ss = "abcba"
 ans = rev(ss,0,len(ss)-1)
 if ans is True:
     print("Pallindrom")
