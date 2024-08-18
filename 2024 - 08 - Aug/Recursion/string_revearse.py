@@ -8,5 +8,5 @@ def rev(ss, i, h):
 
 ss = "abcdef"
 i = 0
-h = len(ss)
+h = len(ss)-1
 print(rev(ss,i,h))
