@@ -7,7 +7,7 @@ def rev(ss, i, h):
     print(ss)
     if new_str == ss:
         return True
-    return rev(aa, i+1, h-1)
+    return rev("".join(aa), i+1, h-1)
 
 ss = "abcd"
 ans = (rev(ss,0,len(ss)-1))
