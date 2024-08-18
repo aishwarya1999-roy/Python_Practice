@@ -6,6 +6,4 @@ def rev(ss, i, h):
     return rev(aa, i+1, h-1)
 
 ss = "abcdef"
-i = 0
-h = len(ss)-1
-print(rev(ss,i,h))
+print(rev(ss,0,len(ss)-1))
