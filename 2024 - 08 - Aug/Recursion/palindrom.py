@@ -21,7 +21,7 @@ def rev(ss, i, h):
         return rev(ss, i+1, h-1)
 
 ss = "abbaa"
-ans = (rev(ss,0,len(ss)-1))
+ans = rev(ss,0,len(ss)-1)
 if ans is True:
     print("Pallindrom")
 else:
