@@ -1,6 +1,6 @@
 def rev(ss):
 
-    return ss.split('')
+    return list(ss)
 
 ss = "abcdef"
 print(rev(ss))
