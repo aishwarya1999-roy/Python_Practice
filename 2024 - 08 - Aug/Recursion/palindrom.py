@@ -1,6 +1,6 @@
 def rev(ss, i, h):
     if i>h:
-        return
+        return ss
     aa = list(ss)
     aa[i],aa[h] = aa[h],aa[i]
     new_str = "".join(aa)
