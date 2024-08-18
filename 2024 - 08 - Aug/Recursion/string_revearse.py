@@ -2,8 +2,8 @@ def rev(ss, i, h):
     if i>h:
         return
     aa = list(ss)
-
-    return aa
+    aa[i],aa[h] = aa[h],aa[i]
+    return rev(ss, i, h)
 
 ss = "abcdef"
 i = 0
