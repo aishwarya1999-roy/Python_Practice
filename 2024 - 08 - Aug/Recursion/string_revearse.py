@@ -1,6 +1,9 @@
 def rev(ss, i, h):
-    
-    return 
+    if i>h:
+        return
+    aa = list(ss)
+
+    return aa
 
 ss = "abcdef"
 i = 0
