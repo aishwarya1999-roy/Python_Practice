@@ -1,6 +1,6 @@
 def rev(ss, i, h):
     if i>h:
-        return "".join(aa)
+        return ss
     ss[i],ss[h] = ss[h],ss[i]
     return rev(ss, i+1, h-1)
 
