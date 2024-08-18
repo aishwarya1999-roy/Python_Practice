@@ -3,13 +3,7 @@ def rev(ss, i, h):
         return ss
     aa = list(ss)
     aa[i],aa[h] = aa[h],aa[i]
-    new_str = "".join(aa)
-    print(ss)
-    return rev(new_str, i+1, h-1)
+    return rev("".join(aa), i+1, h-1)
 
-ss = "abaa"
-ans = (rev(ss,0,len(ss)-1))
-if ans==ss:
-    print("Pallindrom")
-else:
-    print("Not Pallindrom")
+ss = "abcdef"
+print(rev(ss,0,len(ss)-1))
