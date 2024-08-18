@@ -8,7 +8,7 @@ def rev(ss, i, h):
         return True
     return rev(ss, i+1, h-1)
 
-ss = "aba"
+ss = "abaa"
 ans = (rev(ss,0,len(ss)-1))
 if ans is True:
     print("Pallindrom")
