@@ -3,7 +3,7 @@ def rev(ss, i, h):
         return ss
     aa = list(ss)
     aa[i],aa[h] = aa[h],aa[i]
-    print(aa)
+    new_str = "".join(aa)
     return rev("".join(aa), i+1, h-1)
 
 ss = "abcdef"
