@@ -1,6 +1,6 @@
 def rev(ss):
-
-    return "".join(list(ss)[::-1])
+    dd = "".join(list(ss)[::-1])
+    return dd
 
 ss = "abcdef"
 print(rev(ss))
