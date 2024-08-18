@@ -12,6 +12,9 @@
 # else:
 #     print("Not Pallindrom")
 
+
+
+
 # def rev(ss, i, h):
 #     if i>h:
 #         return True
@@ -26,3 +29,5 @@
 #     print("Pallindrom")
 # else:
 #     print("Not Pallindrom")
+ss = "abbaa"
+print(ss[i])
