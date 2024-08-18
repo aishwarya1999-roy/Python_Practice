@@ -1,4 +1,4 @@
-#power - recursion - way 1 (O(power))
+#power - recursion - way 1 (O(n))
 def power_function(num, power):
     if power == 0:
         return 1
