@@ -34,5 +34,5 @@
 ss = "abbaa"
 i = 0
 h = len(ss)-1
-if ss[i]=ss[h]:
+if ss[i]==ss[h]:
     print("equal")
