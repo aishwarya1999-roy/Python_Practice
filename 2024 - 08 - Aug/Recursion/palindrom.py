@@ -5,7 +5,7 @@ def rev(ss, i, h):
     aa[i],aa[h] = aa[h],aa[i]
     new_str = "".join(aa)
     print(new_str)
-    return rev(ss, i+1, h-1)
+    return rev(new_str, i+1, h-1)
 
 ss = "abaa"
 ans = (rev(ss,0,len(ss)-1))
