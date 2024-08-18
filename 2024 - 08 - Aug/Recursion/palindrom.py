@@ -29,6 +29,8 @@
 #     print("Pallindrom")
 # else:
 #     print("Not Pallindrom")
+
+
 ss = "abbaa"
 i = 0
 h = len(ss)-1
