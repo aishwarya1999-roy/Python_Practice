@@ -4,7 +4,6 @@ def rev(ss, i, h):
     aa = list(ss)
     aa[i],aa[h] = aa[h],aa[i]
     new_str = "".join(aa)
-    print(new_str)
     return rev(new_str, i+1, h-1)
 
 ss = "abaa"
