@@ -10,7 +10,7 @@ num = int(input("Number : "))
 power = int(input("power : "))
 print(power_function(num, power))
 
-#power - recursion - way2
+#power - recursion - way2 - efficient way (O(log(n)))
 def power_function(num, power):
     if power == 0:
         return 1
