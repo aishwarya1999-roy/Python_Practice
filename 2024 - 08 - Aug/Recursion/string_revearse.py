@@ -1,7 +1,7 @@
 def rev(ss, i, h):
     print("i: " , i, "h :",h)
     if i>h:
-        return
+        return aa
     aa = list(ss)
     aa[i],aa[h] = aa[h],aa[i]
     return rev(ss, i+1, h-1)
