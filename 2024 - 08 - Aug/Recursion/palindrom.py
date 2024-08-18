@@ -23,7 +23,7 @@ def rev(ss, i, h):
     else:
         return rev(ss, i+1, h-1)
 
-ss = "abbaa"
+ss = "abba"
 ans = rev(ss,0,len(ss)-1)
 if ans is True:
     print("Pallindrom")
