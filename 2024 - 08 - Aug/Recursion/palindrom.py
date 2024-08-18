@@ -30,4 +30,5 @@
 # else:
 #     print("Not Pallindrom")
 ss = "abbaa"
-print(ss[i])
+if str[i]!=str[h]:
+    print("equal")
