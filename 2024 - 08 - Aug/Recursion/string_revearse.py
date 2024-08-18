@@ -1,5 +1,5 @@
 def rev(ss, i, h):
-    print("i: " , i, "h :",h)
+    
     aa = list(ss)
     if i>h:
         return
