@@ -15,7 +15,7 @@ def power_function(num, power):
         return 1
     if power == 1:
         return num
-    ans = power_function(num, power/2)
+    ans = power_function(num, power//2)
     if power%2==0:
         return ans * ans
     else:
