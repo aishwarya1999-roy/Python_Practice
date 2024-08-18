@@ -18,7 +18,7 @@ def rev(ss, i, h):
     if str[i]!=str[h]:
         return False
     else:
-        return rev("".join(aa), i+1, h-1)
+        return rev(ss, i+1, h-1)
 
 ss = "abbaa"
 ans = (rev(ss,0,len(ss)-1))
