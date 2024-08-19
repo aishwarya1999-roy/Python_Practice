@@ -12,3 +12,5 @@ if ans is True:
     print("Pallindrom")
 else:
     print("Not Pallindrom")
+
+
