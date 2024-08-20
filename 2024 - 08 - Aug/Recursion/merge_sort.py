@@ -4,4 +4,4 @@ def merge_sort(arr, n):
 
 arr = [55,16,9,23,3,12,3]
 n = len(arr)
-merge_sort(arr, n)
+print(merge_sort(arr, n))
