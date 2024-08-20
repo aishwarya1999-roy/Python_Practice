@@ -33,4 +33,4 @@ n = len(arr)
 merge_sort(arr, 0,n-1)
 
 for i in range(n):
-    print(arr[i])
+    print(arr[i], end=" ")
