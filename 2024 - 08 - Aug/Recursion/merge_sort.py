@@ -25,9 +25,6 @@ def merge(arr,s,e):
             arr[k] = right[ind2]
             k+=1
             ind2+=1
-
-
-
 def merge_sort(arr, s,e):
     if s>=e:
         return
