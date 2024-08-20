@@ -1,4 +1,4 @@
-def merge_sort(arr, n):
+def merge_sort(arr, n,s,e):
     
     return (arr,n)
 
