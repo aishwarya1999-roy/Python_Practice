@@ -1,9 +1,8 @@
 def merge(arr,s,e):
     mid=(s+e)//2
-    size1= mid-s+1
-    size2 = e-mid
-    left = []
-    right= []
+    left = arr[s:mid+1]
+    right = arr[mid+1:e+1]
+    i= j = 0
     k = s
     for i in range(size1):
         left[i] = arr[k]
