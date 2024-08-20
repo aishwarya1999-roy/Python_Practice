@@ -4,7 +4,7 @@ def merge_sort(arr, s,e):
     mid = (s+e)//2
     merge_sort(arr,s,mid)
     merge_sort(arr,mid+1,e)
-    print(mid)
+    print(arr[mid])
 
 arr = [55, 16, 9, 23, 3, 12, 3]
     #   0   1  2  3   4   5  6
