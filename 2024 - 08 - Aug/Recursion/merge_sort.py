@@ -2,7 +2,7 @@ def merge_sort(arr, n,s,e):
     if n ==0:
         return
     mid = (s+e)//2
-    print(mid)
+    print(arr[mid])
     left = arr[s:mid+1]
     right = arr[mid+1:e]
     print("left: ", left)
