@@ -2,6 +2,7 @@ def merge_sort(arr, n,s,e):
     if n ==0:
         return
     mid = (s+e)//2
+    print(mid)
     left = arr[s:mid]
     print(left)
 
