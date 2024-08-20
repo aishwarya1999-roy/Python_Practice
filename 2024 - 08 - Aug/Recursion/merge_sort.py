@@ -5,6 +5,7 @@ def merge_sort(arr, n):
         if arr[i]>arr[i+1]:
             arr[i],arr[i+1]=arr[i+1], arr[i] 
     merge_sort(arr, n-1)
+    
 arr = [5,1,9,2,3]
 n = len(arr)
 merge_sort(arr, n)
