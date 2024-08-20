@@ -5,8 +5,8 @@ def merge_sort(arr, n):
         if arr[i]>arr[i+1]:
             arr[i],arr[i+1]=arr[i+1], arr[i] 
     merge_sort(arr, n-1)
-    
-arr = [5,1,9,2,3]
+
+arr = [55,16,9,23,3,12,3]
 n = len(arr)
 merge_sort(arr, n)
 for i in range(n):
