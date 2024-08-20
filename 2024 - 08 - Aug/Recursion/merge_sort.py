@@ -1,4 +1,4 @@
-def merge(arr,s,e):
+def merge(arr,mid,s,e):
     mid=(s+e)//2
     left = arr[s:mid+1]
     right = arr[mid+1:e+1]
