@@ -8,7 +8,21 @@ def merge(arr,s,e):
     for i in range(size1):
         left[i] = arr[k]
         k+=1
-    return
+
+    k = mid+1
+    for i in range(size2):
+        right[i] = arr[k]
+        k+=1
+    ind1 = 0
+    ind2 = 0
+    k = s   
+    while ind1<size1 and ind2<size2:
+        if (left[ind1]<right[ind2]):
+            arr[k] = left[ind1]
+            k+=1
+            ind1+=1
+
+
 
 def merge_sort(arr, s,e):
     if s>=e:
