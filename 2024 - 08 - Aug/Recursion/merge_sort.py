@@ -7,6 +7,7 @@ def merge(arr,s,e):
     k = s
     for i in range(size1):
         left.append[k]
+        k+=1
     return
 
 def merge_sort(arr, s,e):
