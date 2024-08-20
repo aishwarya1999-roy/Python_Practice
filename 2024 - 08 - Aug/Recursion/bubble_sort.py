@@ -1,5 +1,5 @@
 def bubble_sort(arr, n):
-    print(n)
+    
     if n == 0 or n == 1:
         return
     for i in range(n-1):
