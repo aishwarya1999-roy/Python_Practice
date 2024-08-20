@@ -1,7 +1,6 @@
 def merge(arr,s,e):
+    
     return
-
-
 def merge_sort(arr, s,e):
     if s>e:
         return
