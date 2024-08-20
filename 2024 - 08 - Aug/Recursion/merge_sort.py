@@ -20,6 +20,7 @@ def merge(arr,mid,s,e):
         arr[k] = right[j]
         j += 1
         k += 1
+        
 def merge_sort(arr, s,e):
     if s>=e:
         return
