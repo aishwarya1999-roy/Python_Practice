@@ -3,7 +3,14 @@ def merge(arr,mid,s,e):
     right = arr[mid+1:e+1]
     i= j = 0
     k = s
-
+    while i < len(left) and j < len(right):
+        if left[i] <= right[j]:
+            arr[k] = left[i]
+            i += 1
+        else:
+            arr[k] = right[j]
+            j += 1
+        k += 1   
 def merge_sort(arr, s,e):
     if s>=e:
         return
