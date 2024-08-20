@@ -7,7 +7,7 @@ def bubble_sort(arr, n):
         print("arr[i] : ", arr[i], "arr[i+1] : " , arr[i+1])
         if arr[i]>arr[i+1]:
             print("yes")
-            arr[i],arr[i+1]==arr[i], arr[i+1]
+            arr[i],arr[i+1]=arr[i], arr[i+1]
         i=i+1
     bubble_sort(arr, n-1)
 arr = [5,1,9,2,3]
