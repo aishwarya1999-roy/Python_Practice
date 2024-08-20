@@ -21,6 +21,10 @@ def merge(arr,s,e):
             arr[k] = left[ind1]
             k+=1
             ind1+=1
+        else:
+            arr[k] = right[ind2]
+            k+=1
+            ind2+=1
 
 
 
