@@ -38,4 +38,4 @@ n = len(arr)
 merge_sort(arr, 0,n-1)
 
 for i in range(n):
-    print(arr)
+    print(arr[i])
