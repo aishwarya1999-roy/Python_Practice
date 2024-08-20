@@ -36,3 +36,6 @@ def merge_sort(arr, s,e):
 arr = [55, 16, 9, 23, 1, 12, 3]
 n = len(arr)
 merge_sort(arr, 0,n-1)
+
+for i in range(n):
+    print(arr)
