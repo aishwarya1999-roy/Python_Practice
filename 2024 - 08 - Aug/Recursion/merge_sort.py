@@ -1,10 +1,10 @@
 def merge(arr,s,e):
-    
+    mid=(s+e)//2
+    size1= 
     return
+
 def merge_sort(arr, s,e):
-    if s>e:
-        return
-    if s==e:
+    if s>=e:
         return
     mid = (s+e)//2
     merge_sort(arr,s,mid)
