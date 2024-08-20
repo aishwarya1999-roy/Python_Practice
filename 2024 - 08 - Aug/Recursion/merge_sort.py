@@ -2,7 +2,7 @@ def merge_sort(arr, s,e):
     if s>=e:
         return arr
     mid = (s+e)//2
-    print("mid: ", arr[mid])
+
     merge_sort(arr,s,mid)
     merge_sort(arr,mid+1,e)
     
