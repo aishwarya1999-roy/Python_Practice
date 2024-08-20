@@ -5,6 +5,7 @@ def bubble_sort(arr, n):
         if arr[i]>arr[i+1]:
             arr[i],arr[i+1]= arr[i], arr[i+1]
     bubble_sort(arr, n-1)
+    print(arr)
 
 arr = [5,1,9,2,3]
 n = len(arr)
