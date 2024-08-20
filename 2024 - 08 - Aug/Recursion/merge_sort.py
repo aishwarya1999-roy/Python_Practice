@@ -1,6 +1,12 @@
 def merge(arr,s,e):
     mid=(s+e)//2
-    size1= 
+    size1= mid-s+1
+    size2 = e-mid
+    left = []
+    right= []
+    k = s
+    for i in range(size1):
+        left.append[k]
     return
 
 def merge_sort(arr, s,e):
