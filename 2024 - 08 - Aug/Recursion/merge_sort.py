@@ -1,6 +1,6 @@
 def merge_sort(arr, s,e):
     if s>=e:
-        return arr
+        return
     mid = (s+e)//2
 
     merge_sort(arr,s,mid)
