@@ -8,4 +8,4 @@ def bubble_sort(arr, n):
 
 arr = [5,1,9,2,3]
 n = len(arr)
-bubble_sort(arr, n)
+print(bubble_sort(arr, n))
