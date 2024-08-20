@@ -8,7 +8,7 @@ def merge_sort(arr, n,s,e):
 
 arr = [55, 16, 9, 23, 3, 12, 3]
     #   0   1  2  3   4   5  6
-n = len(arr)
+n = 7
 s= 0
-e = len(arr)-1
+e = 6
 merge_sort(arr, n,s,e)
