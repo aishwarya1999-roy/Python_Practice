@@ -24,13 +24,14 @@ def merge(arr,s,e):
             arr[k] = right[ind2]
             k+=1
             ind2+=1
+
 def merge_sort(arr, s,e):
     if s>=e:
         return
     mid = (s+e)//2
     merge_sort(arr,s,mid)
     merge_sort(arr,mid+1,e)
-    merge(arr,s,e)
+    merge(arr,mid,s,e)
 
 arr = [55, 16, 9, 23, 1, 12, 3]
 n = len(arr)
