@@ -12,4 +12,4 @@ n = len(arr)
 bubble_sort(arr, n)
 
 for i in range(n):
-    print(arr[i])
+    print(arr[i], end=" ")
