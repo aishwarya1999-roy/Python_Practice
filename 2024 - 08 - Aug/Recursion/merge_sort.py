@@ -2,7 +2,6 @@ def merge_sort(arr, s,e):
     if s>e:
         return
     if s==e:
-        print(arr[s:e+1], end=" ")
         return
     mid = (s+e)//2
 
