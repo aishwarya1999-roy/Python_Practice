@@ -6,7 +6,7 @@ def merge(arr,s,e):
     right= []
     k = s
     for i in range(size1):
-        left.append[k]
+        left[i] = arr[k]
         k+=1
     return
 
