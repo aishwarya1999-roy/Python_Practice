@@ -43,6 +43,7 @@ k = [12,3,4,6,7]
 amp =[]
 for i in k:
     amp.append(i)
-print(k)
+print("k :", k)
+print("amp :", amp)
 
 
