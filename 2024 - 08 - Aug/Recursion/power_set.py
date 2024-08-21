@@ -40,7 +40,9 @@
 
 
 k = [12,3,4,6,7]
-k+2
+amp =[]
+for i in k:
+    amp.append(i)
 print(k)
 
 
