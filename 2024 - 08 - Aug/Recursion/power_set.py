@@ -38,5 +38,5 @@ def power_set(str1,output,ind,ans):
 
 arr1 = [1,2,3]
 ans = []
-power_set(str1,[],0,ans)
+power_set(arr1,[],0,ans)
 print(ans)
