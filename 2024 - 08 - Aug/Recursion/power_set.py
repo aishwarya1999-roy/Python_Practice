@@ -42,7 +42,7 @@
 k = [12,3,4,6,7]
 amp =[]
 for i in k:
-    amp.append(i)
+    amp.append(i+2)
 print("k :", k)
 print("amp :", amp)
 
