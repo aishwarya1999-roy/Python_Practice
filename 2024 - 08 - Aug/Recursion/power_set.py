@@ -23,17 +23,21 @@
 # print(result)
 
 
-def power_set(arr1,output,ind,ans):
-    if ind>=len(arr1):
-        ans.append(output[:])
-        return
-    #exclude
-    power_set(arr1,output,ind+1, ans)
-    #include
-    output.append(arr1[ind])
-    power_set(arr1,output,ind+1, ans)
-    output.pop()
-arr1 = [1,2,3]
-ans = []
-power_set(arr1,[],0,ans)
-print(ans)
+# def power_set(arr1,output,ind,ans):
+#     if ind>=len(arr1):
+#         ans.append(output[:])
+#         return
+#     #exclude
+#     power_set(arr1,output,ind+1, ans)
+#     #include
+#     output.append(arr1[ind])
+#     power_set(arr1,output,ind+1, ans)
+#     output.pop()
+# arr1 = [1,2,3]
+# ans = []
+# power_set(arr1,[],0,ans)
+# print(ans)
+
+
+k = [12,3,4,6,7]
+print(k)
