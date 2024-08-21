@@ -33,7 +33,9 @@ def power_set(arr1,output,ind,ans):
     element = arr1[ind]
     output.append(element)
     power_set(arr1,output,ind+1, ans)
+    output.pop()
 
+    
 arr1 = [1,2,3]
 ans = []
 power_set(arr1,[],0,ans)
