@@ -30,7 +30,8 @@ def power_set(arr1,output,ind,ans):
     #exclude
     power_set(arr1,output,ind+1, ans)
     #include
-    output.append(arr1[ind])
+    element = arr1[ind]
+    output.append(element)
     power_set(arr1,output,ind+1, ans)
 
     output.pop()
