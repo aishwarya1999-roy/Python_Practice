@@ -40,13 +40,5 @@
 
 
 k = [12,3,4,6,7]
-print("K : ", k)
-# l = []
-# l.append(k[:])
-# print("l :", l)
-for i in k:
-    i+2
-    print(i)
-
 
 
