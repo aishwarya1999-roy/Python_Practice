@@ -45,7 +45,7 @@ print("K : ", k)
 # l.append(k[:])
 # print("l :", l)
 for i in k:
-    print(i)
+    print(i+2)
 
 
 
