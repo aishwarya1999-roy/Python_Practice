@@ -26,7 +26,7 @@
 def power_set(arr1,output,ind,ans):
     if ind>=len(arr1):
         if len(output)>0:
-            ans.append(''.join(output))
+            ans.append(output)
         return
     #exclude
     power_set(arr1,output,ind+1, ans)
