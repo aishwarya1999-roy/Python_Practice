@@ -39,11 +39,14 @@
 # print(ans)
 
 
-k = [12,3,4,6,7]
-amp =[]
-for i in k:
-    amp.append(i[:])
-print("k :", k)
-print("amp :", amp)
+original_list = [1, 2, 3]
+copy_list = original_list
+
+# Modify the copy
+copy_list.append(4)
+
+print("Original List:", original_list)  # Output: [1, 2, 3, 4]
+print("Copy List:", copy_list)          # Output: [1, 2, 3, 4]
+
 
 
