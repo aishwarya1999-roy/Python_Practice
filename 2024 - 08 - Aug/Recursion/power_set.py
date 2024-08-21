@@ -40,12 +40,14 @@
 
 
 original_list = [1, 2, 3]
-copy_list = original_list
+copy_list = original_list[:]  # This creates a shallow copy
 
-original_list.append(4)
+# Modify the copy
+copy_list.append(4)
 
-print("Original List:", original_list)  # Output: [1, 2, 3, 4]
+print("Original List:", original_list)  # Output: [1, 2, 3]
 print("Copy List:", copy_list)          # Output: [1, 2, 3, 4]
+
 
 
 
