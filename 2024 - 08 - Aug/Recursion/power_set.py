@@ -23,31 +23,17 @@
 # print(result)
 
 
-# def power_set(arr1,output,ind,ans):
-#     if ind>=len(arr1):
-#         ans.append(output[:])
-#         return
-#     #exclude
-#     power_set(arr1,output,ind+1, ans)
-#     #include
-#     output.append(arr1[ind])
-#     power_set(arr1,output,ind+1, ans)
-#     output.pop()
-# arr1 = [1,2,3]
-# ans = []
-# power_set(arr1,[],0,ans)
-# print(ans)
-
-
-original_list = [1, 2, 3]
-copy_list = original_list[:]  # This creates a shallow copy
-
-# Modify the copy
-copy_list.append(4)
-
-print("Original List:", original_list)  # Output: [1, 2, 3]
-print("Copy List:", copy_list)          # Output: [1, 2, 3, 4]
-
-
-
-
+def power_set(arr1,output,ind,ans):
+    if ind>=len(arr1):
+        ans.append(output[:])
+        return
+    #exclude
+    power_set(arr1,output,ind+1, ans)
+    #include
+    output.append(arr1[ind])
+    power_set(arr1,output,ind+1, ans)
+    output.pop()
+arr1 = [1,2,3]
+ans = []
+power_set(arr1,[],0,ans)
+print(ans)
