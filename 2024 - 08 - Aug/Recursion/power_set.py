@@ -42,7 +42,7 @@
 original_list = [1, 2, 3]
 copy_list = original_list
 
-copy_list.append(4)
+
 
 print("Original List:", original_list)  # Output: [1, 2, 3, 4]
 print("Copy List:", copy_list)          # Output: [1, 2, 3, 4]
