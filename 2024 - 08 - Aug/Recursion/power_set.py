@@ -23,16 +23,16 @@
 # print(result)
 
 
-def power_set(str1,output,ind,ans):
-    if ind>=len(str1):
+def power_set(arr1,output,ind,ans):
+    if ind>=len(arr1):
         if len(output)>0:
             ans.append(''.join(output))
         return
     #exclude
-    power_set(str1,output,ind+1, ans)
+    power_set(arr1,output,ind+1, ans)
     #include
-    output.append(str1[ind])
-    power_set(str1,output,ind+1, ans)
+    output.append(arr1[ind])
+    power_set(arr1,output,ind+1, ans)
 
     output.pop()
 
