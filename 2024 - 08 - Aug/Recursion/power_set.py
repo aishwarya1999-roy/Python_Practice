@@ -46,7 +46,7 @@ print("K : ", k)
 # print("l :", l)
 for i in k:
     i+2
-    print(i+2)
+    print(i)
 
 
 
