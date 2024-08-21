@@ -25,17 +25,16 @@
 
 def power_set(arr1,output,ind,ans):
     if ind>=len(arr1):
-        ans.append(output)
+        ans.append(output[:])
         return
     #exclude
     power_set(arr1,output,ind+1, ans)
     #include
-    element = arr1[ind]
-    output.append(element)
+    output.append(arr1[ind])
     power_set(arr1,output,ind+1, ans)
     output.pop()
 
-    
+
 arr1 = [1,2,3]
 ans = []
 power_set(arr1,[],0,ans)
