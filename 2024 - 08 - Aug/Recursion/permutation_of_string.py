@@ -1,4 +1,4 @@
-def solve(str1,output,index, ans):
+def solve(nums,ind,ans):
     if index>=len(str1):
         ans.append(''.join(output[:]))
         return
