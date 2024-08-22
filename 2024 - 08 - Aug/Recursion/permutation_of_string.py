@@ -1,4 +1,4 @@
-def solve(digits,output,index, ans, mapping):
+def solve(str1,output,index, ans):
     return 
 
 str1 = "abc"
