@@ -14,7 +14,7 @@
 
 
 str1 = ['a','b','c']
-aa = str1
+aa = str1[:]
 ind = 0
 for i in str1:
     if str1.index(i) > 0:
