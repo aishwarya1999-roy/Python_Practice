@@ -5,8 +5,8 @@ def solve(str1,output,index, ans):
     
 
 
-str1 = [1,2,3]
-output= []
+nums = [1,2,3]
+ind = 0
 ans = []
-solve(str1,output, 0, ans)
+solve(nums,ind,ans)
 print(ans)
