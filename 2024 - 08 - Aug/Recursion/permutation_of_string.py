@@ -18,5 +18,5 @@ aa = str1
 ind = 0
 for i in str1:
     if str1.index(i) > 0:
-        aa[i],aa[0] = aa[0], aa[i]
+        aa[str1.index(i)],aa[0] = aa[0], aa[str1.index(i)]
     print(''.join(str1))
