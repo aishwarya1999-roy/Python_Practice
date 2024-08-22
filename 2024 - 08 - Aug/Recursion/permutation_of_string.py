@@ -20,3 +20,4 @@ for i in range(0,len(ast)):
     for j in range(i+1,len(ast)):
         for k in range(j+1, len(ast)):
             ans.append(ast[i]+ast[j]+ast[k])
+            print(ans)
