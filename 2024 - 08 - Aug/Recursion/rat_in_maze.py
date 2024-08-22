@@ -1,4 +1,4 @@
-def solve(m,n,ans,srcX,srcY,visited,path):
+def solve(m,n,ans,x,y,visited,path):
     return
 
 
