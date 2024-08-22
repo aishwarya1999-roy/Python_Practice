@@ -6,7 +6,7 @@ def rat(m,n):
     ans = ''
     srcX = srcY = 0
     if m[0][0]==0:
-        return []
+        return ans
     visited = [[0 for _ in range(n)] for _ in range(4)]
     path = ''
     solve(m,n,ans,srcX,srcY,visited,path)
