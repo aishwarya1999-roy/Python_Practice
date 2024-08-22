@@ -19,3 +19,5 @@ ans = []
 for i in range(len(ast)):
     for j in range(i):
         ans.append(j)
+
+print(j)
