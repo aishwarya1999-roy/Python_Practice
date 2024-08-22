@@ -1,4 +1,6 @@
 def solve(m,n,ans,x,y,visited,path):
+    if x == n-1 and y == n-1:
+        ans.append(path)
     return
 
 
