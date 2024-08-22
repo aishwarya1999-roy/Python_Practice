@@ -17,7 +17,7 @@ ast  = ['1','2','3']
 out =[]
 ans = []
 for i in range(1):
-    for j in range(1,3):
-        for k in range(j+1, len(ast))
-        ans.append(ast[i]+ast[j])
+    for j in range(i+1,len(ast)):
+        for k in range(j+1, len(ast)):
+            ans.append(ast[i]+ast[j]+ast[k])
 print(ans)
