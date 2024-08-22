@@ -1,5 +1,5 @@
 def solve(nums,ind,ans):
-    if index>=len(str1):
+    if ind>=len(nums):
         ans.append(''.join(output[:]))
         return
     
