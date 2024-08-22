@@ -8,7 +8,7 @@ m = [[1,0,0,0],
 n = len(m)
 # ans = ''
 # srcX = srcY = 0
-visited = [[0 for _ in range(4)] for _ in range(4)]
+visited = [[0 for _ in range(n)] for _ in range(4)]
 
 
 print(visited)
