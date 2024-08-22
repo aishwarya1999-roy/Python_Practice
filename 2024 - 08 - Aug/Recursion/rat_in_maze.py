@@ -9,7 +9,7 @@ def rat(m,n):
     path = ''
     solve(m,n,ans,srcX,srcY,visited,path)
     ans.sort()
-    print(ans)
+    return ans
 
 m = [[1,0,0,0],
      [1,1,0,1],
