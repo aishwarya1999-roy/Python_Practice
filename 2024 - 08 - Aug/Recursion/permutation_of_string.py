@@ -15,4 +15,4 @@
 
 str1 = "abc"
 
-for i in range(len(arr)):
+for i in range(len(str1)):
