@@ -14,6 +14,6 @@
 
 
 str1 = "abc"
-
+aa = []
 for i in range(len(str1)):
     print(str1[i])
