@@ -13,13 +13,13 @@
 
 
 
-str1 = ['a','b','c']
-aa = str1
-ind = 0
-for i in str1:
-    if ind > 0:
-        aa[i],aa[0] = aa[0], aa[i]
-    print(''.join(str1))
+# str1 = ['a','b','c']
+# aa = str1
+# ind = 0
+# for i in str1:
+#     if ind > 0:
+#         aa[i],aa[0] = aa[0], aa[i]
+#     print(''.join(str1))
 
 str1 = ['a','b','c']
 print(indexof("a"))
