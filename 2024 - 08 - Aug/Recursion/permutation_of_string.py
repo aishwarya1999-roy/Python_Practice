@@ -13,8 +13,9 @@
 
 
 
-str1 = "abc"
+str1 = ['a','b','c']
 aa = []
 ind = 0
 for i in range(len(str1)):
-    print(str1[i])
+    if i < 0:
+        str
