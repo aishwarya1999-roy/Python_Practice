@@ -3,7 +3,7 @@ def solve():
 
 
 def rat(m,n):
-    ans = ''
+    ans = []
     srcX = srcY = 0
     if m[0][0]==0:
         return ans
