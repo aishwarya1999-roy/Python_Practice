@@ -1,5 +1,9 @@
 def solve(str1,output,index, ans):
-    return 
+    if index>=len(str1):
+        ans.append(''.join(output[:]))
+        return
+    
+
 
 str1 = "abc"
 output= []
