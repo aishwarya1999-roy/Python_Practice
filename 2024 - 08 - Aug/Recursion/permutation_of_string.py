@@ -16,7 +16,7 @@
 ast  = "abc"
 out =[]
 ans = ''
-for i in range(0):
+for i in range(1):
     for j in range(0,2):
         ans = ans + ast[i]
 
