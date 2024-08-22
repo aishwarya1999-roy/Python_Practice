@@ -12,6 +12,7 @@ visited = []
 for i in range(0,n):
     for j in range(0,n):
         visited[i][j]=0
+print(visited)
 
 
 
