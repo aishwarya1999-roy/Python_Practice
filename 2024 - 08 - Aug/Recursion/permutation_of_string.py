@@ -15,4 +15,4 @@
 
 ast  = "abc"
 for i in range(len(ast)):
-    print(i)
+    print(ast[i])
