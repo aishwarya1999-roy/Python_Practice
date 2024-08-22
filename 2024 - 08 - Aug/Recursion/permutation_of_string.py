@@ -14,5 +14,8 @@
 
 
 ast  = "abc"
+out =[]
+ans = []
 for i in range(len(ast)):
-    print(ast[i])
+    for j in range(i):
+        ans.append(j)
