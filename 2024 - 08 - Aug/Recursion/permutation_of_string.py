@@ -16,4 +16,4 @@
 str1 = "abc"
 
 for i in range(len(str1)):
-    print(i)
+    print(str[i])
