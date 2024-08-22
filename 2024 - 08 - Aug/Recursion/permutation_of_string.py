@@ -18,6 +18,6 @@ out =[]
 ans = ''
 for i in range(1):
     for j in range(0,3):
-        ans = ast[i]+ast[j]
+        ans = ast[i]
 
 print(ans)
