@@ -5,5 +5,5 @@ str1 = "abc"
 mapping = [' ', ' ', 'abc','def','ghi','jkl','mno','pqrs','tuv','wxyz']
 output= []
 ans = []
-solve(digit,output, 0, ans, mapping)
+solve(str1,output, 0, ans, mapping)
 print(ans)
