@@ -1,6 +1,6 @@
 def solve(nums,ind,ans):
     if ind>=len(nums):
-        ans.append(nums))
+        ans.append(nums)
         return
     
 
