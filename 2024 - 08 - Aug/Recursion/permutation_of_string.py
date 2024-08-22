@@ -5,7 +5,7 @@ def solve(nums,ind,ans):
     for i in range(ind, len(nums)):
         nums[ind],nums[i] = nums[i],nums[ind] 
         solve(nums,ind+1,ans)
-        nums[ind],nums[i] = nums[i],nums[ind] 
+        
 
 nums = [1,2,3]
 ind = 0
