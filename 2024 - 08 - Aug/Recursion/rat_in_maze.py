@@ -7,8 +7,8 @@ m = [[1,0,0,0],
      [0,1,1,1]]
 n = len(m)
 ans = ''
-srcX = 0
-srcY = 0
+srcX = srcY = 0
 visited = []
+
 
 
