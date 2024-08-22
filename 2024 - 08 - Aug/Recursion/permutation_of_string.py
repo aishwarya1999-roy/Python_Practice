@@ -13,7 +13,7 @@
 
 
 
-ast  = "ab"
+ast  = "abc"
 out =[]
 ans = []
 for i in range(0,len(ast)):
