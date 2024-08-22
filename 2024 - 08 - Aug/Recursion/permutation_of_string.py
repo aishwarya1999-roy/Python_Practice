@@ -18,5 +18,5 @@ out =[]
 ans = []
 for i in range(1):
     for j in range(1,3):
-        ans.append(ast[i])
+        ans.append(ast[i]+ast[j])
 print(ans)
