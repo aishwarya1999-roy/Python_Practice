@@ -1,7 +1,7 @@
 def solve(digits,output,index, ans, mapping):
     return 
 
-digit = "abc"
+str1 = "abc"
 mapping = [' ', ' ', 'abc','def','ghi','jkl','mno','pqrs','tuv','wxyz']
 output= []
 ans = []
