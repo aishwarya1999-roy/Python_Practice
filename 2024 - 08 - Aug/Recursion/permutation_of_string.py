@@ -18,5 +18,5 @@ out =[]
 ans = ''
 for i in range(1):
     for j in range(1,3):
-        ans = ans + ast[i]
+        ans = ans + ast[j]
         print(ans)
