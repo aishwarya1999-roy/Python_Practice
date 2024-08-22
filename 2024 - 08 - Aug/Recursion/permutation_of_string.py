@@ -15,7 +15,7 @@
 
 ast  = "abc"
 out =[]
-ans = ''
+ans = []
 for i in range(1):
     for j in range(1,3):
         ans = ans + ast[i] + ast[j]
