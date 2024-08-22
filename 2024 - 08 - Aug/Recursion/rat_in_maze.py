@@ -8,7 +8,7 @@ m = [[1,0,0,0],
 n = len(m)
 ans = ''
 srcX = srcY = 0
-visited = []
+visited = [[]]
 for i in range(0,4):
     for j in range(0,4):
         visited[i][j]=0
