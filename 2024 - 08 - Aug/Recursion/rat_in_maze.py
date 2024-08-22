@@ -11,7 +11,8 @@ def solve(m,n,ans,x,y,visited,path):
     newx= x+1
     newy= x-1
 
-    if 
+    if (issafe(x,y,n,visited,m)):
+        
 
 
 
