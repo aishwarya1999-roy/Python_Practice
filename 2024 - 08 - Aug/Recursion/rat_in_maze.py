@@ -1,9 +1,12 @@
 def solve():
     return
 
-def maze(m,n):
-    ans = ''
-    srcX = 0
-    srcY = 0
-    visited = []
+m = [[1,0,0,0],
+     [1,1,0,1],
+     [1,1,0,0],
+     [0,1,1,1]]
+ans = ''
+srcX = 0
+srcY = 0
+visited = []
 
