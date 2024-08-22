@@ -10,7 +10,7 @@ n = len(m)
 # srcX = srcY = 0
 visited = []
 for i in range(n):
-    for j in range(n):
+    for j in range(n-1):
         visited[i][j]=0
 print(visited)
 
