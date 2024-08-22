@@ -9,4 +9,5 @@ ans = ''
 srcX = 0
 srcY = 0
 visited = []
+print(len(m))
 
