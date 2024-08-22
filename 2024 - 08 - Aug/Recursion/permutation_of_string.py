@@ -16,7 +16,7 @@
 str1 = ['a','b','c']
 aa = str1
 ind = 0
-for i in range(len(str1)):
+for i in str:
     if i > 0:
         aa[i],aa[0] = aa[0], aa[i]
     print(''.join(str1))
