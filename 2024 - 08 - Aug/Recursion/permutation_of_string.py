@@ -21,4 +21,4 @@ for i in range(0,len(ast)):
     for j in range(0,len(ast)):
         an = an + ast[i]+ ast[j]
 
-print(an)
+print(an, end=" ")
