@@ -22,4 +22,4 @@
 #     print(''.join(str1))
 
 str1 = ['a','b','c']
-print("a".index("a"))
+print(_index("a"))
