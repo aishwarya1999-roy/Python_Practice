@@ -9,6 +9,9 @@ n = len(m)
 ans = ''
 srcX = srcY = 0
 visited = []
+for i in range(0,n):
+    for j in range(0,n):
+        visited[i][j]=0
 
 
 
