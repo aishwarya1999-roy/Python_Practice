@@ -12,3 +12,7 @@ ind = 0
 ans = []
 solve(nums,ind,ans)
 print(ans)
+
+for i in range(0, len(nums)):
+    for j in range(0, len(nums)):
+        nums[i],nums[j] = nums[j],nums[i]
