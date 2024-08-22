@@ -18,6 +18,6 @@ out =[]
 ans = []
 for i in range(len(ast)):
     for j in range(i+1):
-        ans.append('a'.join(ast[j]))
+        ans.append('i'.join(ast[j]))
 
 print(ans)
