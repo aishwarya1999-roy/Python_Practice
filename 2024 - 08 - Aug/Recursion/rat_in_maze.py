@@ -10,7 +10,7 @@ def rat(m,n):
     if m[0][0]==0:
         return ans
     visited = [[0 for _ in range(n)] for _ in range(4)]
-    path = ''
+    path = []
     solve(m,n,ans,srcX,srcY,visited,path)
     ans.sort()
     return ans
