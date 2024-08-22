@@ -1,8 +1,9 @@
-def maze():
+def solve():
     return
 
-ans = ''
-srcX = 0
-srcY = 0
-visited = []
+def maze():
+    ans = ''
+    srcX = 0
+    srcY = 0
+    visited = []
 
