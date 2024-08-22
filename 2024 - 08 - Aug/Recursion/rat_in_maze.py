@@ -1,7 +1,7 @@
 def solve():
     return
 
-def maze():
+def maze(m,n):
     ans = ''
     srcX = 0
     srcY = 0
