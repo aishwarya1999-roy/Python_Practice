@@ -19,4 +19,5 @@ b = {
 # print(a.setdefault("call"))
 # print("a :", a)
 
+print(a["id"])
 print(a.get("id"))
