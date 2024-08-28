@@ -8,10 +8,10 @@ b = {
     5 : 7,
     6 : 8
 }
-print(a)
+print("a :", a)
 
 b = a.copy()
-print(b)
+print("b :", b)
 b["sc"] = 8
-print(b)
-print(a)
+print("b :", b)
+print("a :", a)
