@@ -10,4 +10,6 @@ b = {
 }
 
 
-print(a["Name"])
+print(a)
+a.clear()
+print(a)
