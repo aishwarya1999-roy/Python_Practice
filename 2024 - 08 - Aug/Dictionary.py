@@ -9,7 +9,6 @@ b = {
     6 : 8
 }
 print(a)
-a.clear()
-print(a)
+
 a.copy()
 print(a)
