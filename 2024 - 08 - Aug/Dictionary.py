@@ -8,8 +8,8 @@ b = {
     5 : 7,
     6 : 8
 }
-
-
 print(a)
 a.clear()
+print(a)
+a.copy()
 print(a)
