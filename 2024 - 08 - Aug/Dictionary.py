@@ -10,5 +10,5 @@ b = {
 }
 print(a)
 
-a.copy()
+b = a.copy()
 print(a)
