@@ -21,3 +21,4 @@ b = {
 
 print(a["id"])
 print(a.get("id"))
+print(a.items())
