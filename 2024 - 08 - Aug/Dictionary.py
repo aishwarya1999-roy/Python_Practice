@@ -15,4 +15,5 @@ print("a :", a)
 # b["call"] = 8
 # print("b :", b)
 # print("a :", a)
+print(a.keys())
 print(a.values())
