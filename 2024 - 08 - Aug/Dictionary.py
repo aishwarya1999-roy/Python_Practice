@@ -19,4 +19,4 @@ b = {
 # print(a.setdefault("call"))
 # print("a :", a)
 
-a.fromkeys()
+a.get("id")
