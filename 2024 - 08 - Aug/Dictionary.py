@@ -15,7 +15,11 @@ print("a :", a)
 # b["call"] = 8
 # print("b :", b)
 # print("a :", a)
-print(a.keys())
-print(a.values())
-print(a.setdefault("call"))
-print("a :", a)
+# print(a.keys())
+# print(a.values())
+# print(a.setdefault("call"))
+# print("a :", a)
+
+my_dict = {}
+my_dict.setdefault('fruits', []).append('apple')
+print(my_dict)  # Output: {'fruits': ['apple']}
