@@ -19,6 +19,4 @@ b = {
 # print(a.setdefault("call"))
 # print("a :", a)
 
-my_dict = {}
-my_dict.setdefault('fruits', []).append('apple')
-print(my_dict)  # Output: {'fruits': ['apple']}
+a.fromkeys()
