@@ -8,8 +8,7 @@ b = {
     5 : 7,
     6 : 8
 }
-print("a :", a)
-
+# print("a :", a)
 # b = a.copy()
 # print("b :", b)
 # b["call"] = 8
