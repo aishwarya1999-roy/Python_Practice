@@ -11,4 +11,4 @@ b = {
 print(a)
 
 b = a.copy()
-print(a)
+print(b)
