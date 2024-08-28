@@ -15,3 +15,4 @@ print("b :", b)
 b["call"] = 8
 print("b :", b)
 print("a :", a)
+print(a.values())
