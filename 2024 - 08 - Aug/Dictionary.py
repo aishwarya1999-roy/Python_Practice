@@ -12,3 +12,5 @@ print(a)
 
 b = a.copy()
 print(b)
+b["sc"] = 8
+print(b)
